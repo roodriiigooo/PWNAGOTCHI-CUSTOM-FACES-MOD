@@ -12,7 +12,7 @@ First and foremost, keep in mind that you must meet this requirements:
 - Having followed all the steps in [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_)
 
 ## How To
-First, with the pwnagotchi connected to a computer in MANU mode, establish an SSH connection.
+First, with the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
 
 Login as root:
 ```console
@@ -95,10 +95,11 @@ Reboot pwnagotchi service again
 root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
 ```
 
+Enjoy!
 
 ---
 
-#### ENJOY!
+#### Sprite sheet
 
 
 |                                               Emotion                                                |                                                     Original                                                     |                                                                            Replacement                                                                             |     |               Emotion (cont'd)                |  Original  |                                                                            Replacement                                                                             |
