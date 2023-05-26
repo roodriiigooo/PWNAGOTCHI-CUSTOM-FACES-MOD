@@ -24,7 +24,7 @@ root@pwnagotchi:/home/pi# cd /
 ```
 Stop pwnagotchi service
 ```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl stop pwnagotchi
+root@pwnagotchi:/# systemctl stop pwnagotchi
 ```
 
 Assuming you have already downloaded this project, upload the images using FileZilla or your preferred method to the custom faces folder created during [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_).
