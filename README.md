@@ -254,6 +254,16 @@ root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl 
 
 Enjoy!
 
+# Themes
+# <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/PWNACHU_MINI.png?raw=true" height="48"> pwnachu
+
+A custom theme featuring my favorite character.
+
+|                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                     |
+| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_0.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_1.png?raw=true)  |
+
+
 # Troubleshooting
 - Check the log file, read and interpret
 ```console
