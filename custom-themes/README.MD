@@ -1,4 +1,4 @@
-# <img src="https://github.com/PersephoneKarnstein/egirl-pwnagotchi/blob/master/assets/sideeye.gif?raw=true" height="48"> pwnagotchi e-girl
+# <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/PWNACHU_MINI.png?raw=true" height="48"> pwnachu
 
 ### Background
 
