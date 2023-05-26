@@ -99,7 +99,6 @@ Enjoy!
 
 ---
 
-#### Sprite sheet
 
 
 |                                               Emotion                                                |                                                     Original                                                     |                                                                            Replacement                                                                             |     |               Emotion (cont'd)                |  Original  |                                                                            Replacement                                                                             |
