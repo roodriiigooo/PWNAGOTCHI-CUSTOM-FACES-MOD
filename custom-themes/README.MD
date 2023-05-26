@@ -71,7 +71,7 @@ ui.faces.position_y = 34
 CTRL + O to save, CTRL + X to close file.
 
 # Optional
-Place the plugins from the `plugins_pwnachu` folder into your custom plugins folder.
+Place the plugins from the `plugins_pwnachu` folder into your custom plugins folder path.
 
 Edit `pwnachu-theme.py` with your `custom-faces` folder:
 ```python
