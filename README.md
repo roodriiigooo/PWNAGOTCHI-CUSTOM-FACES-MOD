@@ -5,7 +5,7 @@ This mod allows you to use custom images as pwnagotchi Faces, with transparency 
 ## Requirements
 First and foremost, keep in mind that you must meet this requirements:
 - A computer;
-- The pwnagotchi must already be v1.5.5 properly configured;
+- The pwnagotchi must already be `v1.5.5` properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
 
 ## Observations:
@@ -14,7 +14,7 @@ You should adapt them according to your configuration. This tutorial requires a 
 
 ## The Mod
 
-First, with the pwnagotchi connected to a computer in MANU mode, establish an SSH connection.
+First, with the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
 
 Login as root:
 ```console
@@ -172,7 +172,7 @@ Stop the pwnagotchi service
 root@pwnagotchi:/# systemctl stop pwnagotchi
 ```
 
-Use FileZilla or any other method you know to upload your images to the **/custom-faces/** folder that was created earlier.
+Use FileZilla or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
 
 Open the pwnagotchi's configuration file:
 ```console
@@ -211,7 +211,7 @@ ui.faces.upload2 = "(0__1)"
 
 This snippet will be responsible for enabling our customization. If it doesn't exist, you can add it.
 
-Add the new entries pointing to the folder where the images were placed, set the position where the custom Face will be displayed and set the activation flag to True.
+Add the new entries pointing to the folder where the images were placed, set the position where the custom Face will be displayed and set the activation flag to `True`.
 
 ```python
 ...
@@ -257,7 +257,7 @@ Enjoy!
 # Troubleshooting
 - Check the log file, read and interpret
 ```console
-tail -f /var/log/pwnagotchi.log
+root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
 - Restore the backup files that we placed in /files-backup/
 
