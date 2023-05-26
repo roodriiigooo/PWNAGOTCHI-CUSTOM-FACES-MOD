@@ -5,14 +5,14 @@ This mod allows you to use custom images as pwnagotchi Faces, with transparency 
 ## Requirements
 First and foremost, keep in mind that you must meet this requirements:
 - A computer;
-- The pwnagotchi must already be on the latest version (officially v1.5.5) properly configured;
+- The pwnagotchi must already be v1.5.5 properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
 
 ## Observations:
 The following steps were performed on a Windows computer using PuTTY as an SSH client, FileZilla and the pwnagotchi with a Waveshare 2.13 V3 e-ink display.
 You should adapt them according to your configuration. This tutorial requires a minimum level of knowledge.
 
-## How to
+## The Mod
 
 First, with the pwnagotchi connected to a computer in MANU mode, establish an SSH connection.
 
@@ -29,16 +29,16 @@ root@pwnagotchi:/home/pi# cd /
 ```
 Let's create two folders, one for backing up the files and another one to receive the custom faces:
 ```console
-root@pwnagotchi:/home/pi# mkdir files-backup
-root@pwnagotchi:/home/pi# mkdir custom-faces
+root@pwnagotchi:/# mkdir files-backup
+root@pwnagotchi:/# mkdir custom-faces
 ```
 Now let's navigate to the folder that contains the files we're going to modify:
 ```console
-root@pwnagotchi:/home/pi# cd /usr/local/lib/python3.7/dist-packages/pwnagotchi/ui
+root@pwnagotchi:/# cd /usr/local/lib/python3.7/dist-packages/pwnagotchi/ui
 ```
 Stop the pwnagotchi service
 ```console
-root@pwnagotchi:/home/pi# systemctl stop pwnagotchi
+root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl stop pwnagotchi
 ```
 Here are the following files:
 ```console
@@ -150,7 +150,65 @@ With that:
 ```
 CTRL + O to save, CTRL + X to close file.
 
+Restart your device
+```console
+root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+```
+
 From this point on, the pwnagotchi is ready to display images instead of the default string.
+
+## Configuration
+From here, we will able configure the images for our custom Faces. So lets do that!
+
+Prepare the files, there are a total of 25. I use images of size 128x45. To make it easier, name the files according to the facial expression or emotion:
+> **_Png Files:_**  
+
+~~~
+LOOK_R, LOOK_L, LOOK_R_HAPPY, LOOK_L_HAPPY, SLEEP, SLEEP2, AWAKE, BORED, INTENSE, COOL, HAPPY, GRATEFUL, EXCITED, MOTIVATED, DEMOTIVATED, LONELY, SAD, ANGRY, FRIEND, BROKEN, DEBUG, UPLOAD, UPLOAD1, UPLOAD2, ICON, POSITION_X, POSITION_Y
+~~~
+
+Stop the pwnagotchi service
+```console
+root@pwnagotchi:/# systemctl stop pwnagotchi
+```
+
+Use FileZilla or any other method you know to upload your images to the **/custom-faces/** folder that was created earlier.
+
+Open the pwnagotchi's configuration file:
+```console
+root@pwnagotchi:/# nano /etc/pwnagotchi/config.toml
+```
+Locate this code snippet:
+```python
+ui.faces.look_r = "( ⚆_⚆)"
+ui.faces.look_l = "(☉_☉ )"
+ui.faces.look_r_happy = "( ◕‿◕)"
+ui.faces.look_l_happy = "(◕‿◕ )"
+ui.faces.sleep = "(⇀‿‿↼)"
+ui.faces.sleep2 = "(≖‿‿≖)"
+ui.faces.awake = "(◕‿‿◕)"
+ui.faces.bored = "(-__-)"
+ui.faces.intense = "(°▃▃°)"
+ui.faces.cool = "(⌐■_■)"
+ui.faces.happy = "(•‿‿•)"
+ui.faces.excited = "(ᵔ◡◡ᵔ)"
+ui.faces.grateful = "(^‿‿^)"
+ui.faces.motivated = "(☼‿‿☼)"
+ui.faces.demotivated = "(≖__≖)"
+ui.faces.smart = "(✜‿‿✜)"
+ui.faces.lonely = "(ب__ب)"
+ui.faces.sad = "(╥☁╥ )"
+ui.faces.angry = "(-_-')"
+ui.faces.friend = "(♥‿‿♥)"
+ui.faces.broken = "(☓‿‿☓)"
+ui.faces.debug = "(#__#)"
+ui.faces.upload = "(1__0)"
+ui.faces.upload1 = "(1__1)"
+ui.faces.upload2 = "(0__1)"
+
+```
+
+
 
 
 
