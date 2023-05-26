@@ -249,7 +249,7 @@ CTRL + O to save, CTRL + X to close file.
 
 Restart your device
 ```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+root@pwnagotchi:/# systemctl restart pwnagotchi
 ```
 
 Enjoy!
