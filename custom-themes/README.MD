@@ -6,13 +6,74 @@ A custom theme featuring my favorite character.
 First and foremost, keep in mind that you must meet this requirements:
 - Having followed all the steps in [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_)
 
-### Background
-....
+## How To
+First, with the pwnagotchi connected to a computer in MANU mode, establish an SSH connection.
+
+Login as root:
+```console
+pi@pwnagotchi:~ $ sudo su
+root@pwnagotchi:/home/pi#
+root@pwnagotchi:/home/pi# whoami
+root
+root@pwnagotchi:/home/pi# cd /
+```
+Stop pwnagotchi service
+```console
+root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl stop pwnagotchi
+```
+
+Assuming you have already downloaded this project, upload the images using FileZilla or your preferred method to the custom faces folder created during [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_).
+
+Open the pwnagotchi's configuration file:
+```console
+root@pwnagotchi:/# nano /etc/pwnagotchi/config.toml
+```
+
+Add or replace the new entries pointing to the folder where the images were placed, set the position where the custom Face will be displayed and set the activation flag to True.
+
+```python
+...
+ui.faces.look_r = "/custom-faces/LOOK-R.png"
+ui.faces.look_l = "/custom-faces/LOOK-L.png"
+ui.faces.look_r_happy = "/custom-faces/LOOK-R-HAPPY.png"
+ui.faces.look_l_happy = "/custom-faces/LOOK-L-HAPPY.png"
+ui.faces.sleep = "/custom-faces/SLEEP.png"
+ui.faces.sleep2 = "/custom-faces/SLEEP2.png"
+ui.faces.awake = "/custom-faces/AWAKE.png"
+ui.faces.bored = "/custom-faces/BORED.png"
+ui.faces.intense = "/custom-faces/INTENSE.png"
+ui.faces.cool = "/custom-faces/COOL.png"
+ui.faces.happy = "/custom-faces/HAPPY.png"
+ui.faces.excited = "/custom-faces/EXCITED.png"
+ui.faces.grateful = "/custom-faces/GRATEFUL.png"
+ui.faces.motivated = "/custom-faces/MOTIVATED.png"
+ui.faces.demotivated = "/custom-faces/DEMOTIVATED.png"
+ui.faces.smart = "/custom-faces/SMART.png"
+ui.faces.lonely = "/custom-faces/LONELY.png"
+ui.faces.sad = "/custom-faces/SAD.png"
+ui.faces.angry = "/custom-faces/ANGRY.png"
+ui.faces.friend = "/custom-faces/FRIEND.png"
+ui.faces.broken = "/custom-faces/BROKEN.png"
+ui.faces.debug = "/custom-faces/DEBUG.png"
+ui.faces.upload = "/custom-faces/UPLOAD.png"
+ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
+ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
+ui.faces.icon = true
+ui.faces.position_x = 0
+ui.faces.position_y = 34
+...
+```
+CTRL + O to save, CTRL + X to close file.
+
+Restart your device
+```console
+root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+```
+
 
 ---
-## Goal
 
-The aim of this project is to replace the text pwnagotchi face with bitmap faces in the absence of an update that does same. The faces used are all custom drawn by me and fit within a 64x64px square. Some examples are shown below.
+#### ENJOY!
 
 
 |                                               Emotion                                                |                                                     Original                                                     |                                                                            Replacement                                                                             |     |               Emotion (cont'd)                |  Original  |                                                                            Replacement                                                                             |
