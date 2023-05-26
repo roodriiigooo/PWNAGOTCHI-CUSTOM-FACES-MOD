@@ -21,7 +21,6 @@ class pwnachu(plugins.Plugin):
 
     def __init__(self):
         try:
-            self.faces_dir = os.path.join(os.path.dirname(__file__), 'faces')
             logging.info("Loading PWNACHU frames")
         except Exception as e:
             logging.info(f'Failed to load init')
@@ -32,18 +31,19 @@ class pwnachu(plugins.Plugin):
                 ui.remove_element('pokebarxp')
                 ui.remove_element('frameright')
                 ui.remove_element('pwnachumini')
-                logging.info(f'WHOHOO on on_unload')
+                logging.info(f'PWNACHU frames unloaded')
             except Exception as e:
                 logging.info(f'Failed to load face on on_unload: {e}')
 
     def on_ui_setup(self, ui):
         try:
-            self.image0 = Frame(path=f'/plugins/faces/{POKEBARXP}', xy=(55, 82))
-            self.image1 = Frame(path=f'/plugins/faces/{FRAMERIGHT}', xy=(176, 36))
-            self.image2 = Frame(path=f'/plugins/faces/{PWNACHUMINI}', xy=(232, 18))
+            self.image0 = Frame(path=f'/custom-faces/{POKEBARXP}', xy=(55, 82))
+            self.image1 = Frame(path=f'/custom-faces/{FRAMERIGHT}', xy=(176, 36))
+            self.image2 = Frame(path=f'/custom-faces/{PWNACHUMINI}', xy=(232, 18))
             ui.add_element('pokebarxp', self.image0)
             ui.add_element('frameright', self.image1)
             ui.add_element('pwnachumini', self.image2)
+            logging.info(f'PWNACHU frames loaded')
         except Exception as e:
             logging.info(f'Failed to load face on on_ui_setup: {e}' )
 
