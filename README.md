@@ -263,7 +263,7 @@ tail -f /var/log/pwnagotchi.log
 
 - PM me.
 
-## Thank You
+## Thank You ♥
 [Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official)
 
 
