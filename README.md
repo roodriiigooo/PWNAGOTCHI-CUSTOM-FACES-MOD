@@ -180,6 +180,7 @@ root@pwnagotchi:/# nano /etc/pwnagotchi/config.toml
 ```
 Locate this code snippet:
 ```python
+...
 ui.faces.look_r = "( ⚆_⚆)"
 ui.faces.look_l = "(☉_☉ )"
 ui.faces.look_r_happy = "( ◕‿◕)"
@@ -205,9 +206,53 @@ ui.faces.debug = "(#__#)"
 ui.faces.upload = "(1__0)"
 ui.faces.upload1 = "(1__1)"
 ui.faces.upload2 = "(0__1)"
-
+...
 ```
 
+This snippet will be responsible for enabling our customization. If it doesn't exist, you can add it.
+
+Add the new entries pointing to the folder where the images were placed, set the position where the custom Face will be displayed and set the activation flag to True.
+
+```python
+...
+ui.faces.look_r = "/custom-faces/LOOK-R.png"
+ui.faces.look_l = "/custom-faces/LOOK-L.png"
+ui.faces.look_r_happy = "/custom-faces/LOOK-R-HAPPY.png"
+ui.faces.look_l_happy = "/custom-faces/LOOK-L-HAPPY.png"
+ui.faces.sleep = "/custom-faces/SLEEP.png"
+ui.faces.sleep2 = "/custom-faces/SLEEP2.png"
+ui.faces.awake = "/custom-faces/AWAKE.png"
+ui.faces.bored = "/custom-faces/BORED.png"
+ui.faces.intense = "/custom-faces/INTENSE.png"
+ui.faces.cool = "/custom-faces/COOL.png"
+ui.faces.happy = "/custom-faces/HAPPY.png"
+ui.faces.excited = "/custom-faces/EXCITED.png"
+ui.faces.grateful = "/custom-faces/GRATEFUL.png"
+ui.faces.motivated = "/custom-faces/MOTIVATED.png"
+ui.faces.demotivated = "/custom-faces/DEMOTIVATED.png"
+ui.faces.smart = "/custom-faces/SMART.png"
+ui.faces.lonely = "/custom-faces/LONELY.png"
+ui.faces.sad = "/custom-faces/SAD.png"
+ui.faces.angry = "/custom-faces/ANGRY.png"
+ui.faces.friend = "/custom-faces/FRIEND.png"
+ui.faces.broken = "/custom-faces/BROKEN.png"
+ui.faces.debug = "/custom-faces/DEBUG.png"
+ui.faces.upload = "/custom-faces/UPLOAD.png"
+ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
+ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
+ui.faces.icon = true
+ui.faces.position_x = 0
+ui.faces.position_y = 34
+...
+```
+CTRL + O to save, CTRL + X to close file.
+
+Restart your device
+```console
+root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+```
+
+Enjoy!
 
 
 
