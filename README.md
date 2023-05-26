@@ -254,8 +254,17 @@ root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl 
 
 Enjoy!
 
+# Troubleshooting
+- Check the log file, read and interpret
+```console
+tail -f /var/log/pwnagotchi.log
+```
+- Restore the backup files that we placed in /files-backup/
 
+- PM me.
 
+## Thank You
+[Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official)
 
 
 
