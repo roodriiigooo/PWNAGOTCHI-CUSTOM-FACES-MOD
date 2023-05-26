@@ -2,9 +2,9 @@
 
 A custom theme featuring my favorite character.
 
-|                                           Without Plugins                                            |                                                 With Plugins                                                     |
+|                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                     |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_0.png?raw=true)    |           ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_0.png?raw=true)  |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_0.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_1.png?raw=true)  |
 
 
 ## Requirements
@@ -70,7 +70,27 @@ ui.faces.position_y = 34
 ```
 CTRL + O to save, CTRL + X to close file.
 
-Restart your device
+# Optional
+Place the plugins from the "plugins_pwnachu" folder into your custom plugins folder.
+
+Edit `pwnachu-theme.py` with your `custom-faces` folder:
+```python
+...
+            self.image0 = Frame(path=f'/custom-faces/{POKEBARXP}', xy=(55, 82))
+            self.image1 = Frame(path=f'/custom-faces/{FRAMERIGHT}', xy=(176, 36))
+            self.image2 = Frame(path=f'/custom-faces/{PWNACHUMINI}', xy=(232, 18))
+...
+```
+
+Reboot pwnagotchi service
+```console
+root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+```
+
+Activate plugins `exp` and `pwnachu-theme`
+
+
+Reboot pwnagotchi service again
 ```console
 root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
 ```
