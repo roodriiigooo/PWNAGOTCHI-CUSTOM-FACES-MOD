@@ -254,6 +254,9 @@ ui.faces.position_x = 0
 ui.faces.position_y = 34
 ...
 ```
+
+> **_Note:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")`
+
 CTRL + O to save, CTRL + X to close file.
 
 Restart your device
@@ -264,7 +267,7 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 Enjoy!
 
 # Troubleshooting
-- Check the log file, read and interpret
+- Check the log file, read and interpretinterpre
 ```console
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
