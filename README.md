@@ -154,7 +154,7 @@ Replace this one:
 With that:
 ```python
 ...
-	    'face': Text(value=faces.SLEEP, position=(config['ui']['faces']['position_x'], config['ui']['faces']['position_y']), color=BLACK, font=fonts.Huge, png=config['ui']['faces']['icon']),
+	    'face': Text(value=faces.SLEEP, position=(config['ui']['faces']['position_x'], config['ui']['faces']['position_y']), color=BLACK, font=fonts.Huge, png=config['ui']['faces']['png']),
 ...
 ```
 CTRL + O to save, CTRL + X to close file.
