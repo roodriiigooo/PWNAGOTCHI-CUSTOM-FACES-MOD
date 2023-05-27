@@ -14,7 +14,7 @@ Starting a collection of custom themes for pwnagotchi. Create your own and send 
 ## Requirements
 First and foremost, keep in mind that you must meet this requirements:
 - A computer;
-- The pwnagotchi must already be `v1.5.5` properly configured;
+- The pwnagotchi must already be [`v1.5.5`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5) properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
 
 ## Observations
