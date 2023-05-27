@@ -249,7 +249,7 @@ ui.faces.debug = "/custom-faces/DEBUG.png"
 ui.faces.upload = "/custom-faces/UPLOAD.png"
 ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
 ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
-ui.faces.icon = true
+ui.faces.png = true
 ui.faces.position_x = 0
 ui.faces.position_y = 34
 ...
