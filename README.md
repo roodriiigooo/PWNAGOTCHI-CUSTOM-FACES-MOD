@@ -169,7 +169,7 @@ From this point on, the pwnagotchi is ready to display images instead of the def
 ## Configuration
 From here, we will able configure the images for our custom Faces. So lets do that!
 
-Prepare the files, there are a total of 25. I use images of size 128x45. To make it easier, name the files according to the facial expression or emotion:
+Prepare the files, there are a total of `25`. I use images of size `128x45`. To make it easier, name the files according to the facial expression or emotion:
 > **_Default .png file names:_**  
 
 ~~~
