@@ -17,7 +17,7 @@ First and foremost, keep in mind that you must meet this requirements:
 - The pwnagotchi must already be `v1.5.5` properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
 
-## Observations:
+## Observations
 The following steps were performed on a Windows computer using PuTTY as an SSH client, FileZilla and the pwnagotchi with a Waveshare 2.13 V3 e-ink display.
 You should adapt them according to your configuration. This tutorial requires a minimum level of knowledge.
 
