@@ -14,6 +14,8 @@ First and foremost, keep in mind that you must meet this requirements:
 ## How To
 First, with the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
 
+Place the images from the `faces_flipper_dolphin` folder into your custom faces folder path.
+
 Login as root:
 ```console
 pi@pwnagotchi:~ $ sudo su
