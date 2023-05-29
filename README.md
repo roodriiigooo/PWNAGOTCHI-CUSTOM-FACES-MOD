@@ -2,13 +2,22 @@
 Project for those who are tired of the same old string faces.
 This mod allows you to use custom images as pwnagotchi Faces, with transparency feature (.png)
 
+
+# Themes
+
+Starting a collection of custom themes for pwnagotchi. Create your own and send me your pull request!
+
+| Name                                                                                                                                                                                                                                                               | Without Optional Plugins                                                                                                                                    | With Optional Plugins                                                                                                                                     | Description                                    | Author                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|-------------------------------------------------------|
+| <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/PWNACHU_MINI.png?raw=true" height="48"> [pwnachu](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/pwnachu) | ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_0.png?raw=true) | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_1.png?raw=true) | A custom theme featuring my favorite character |    [roodriiigooo](https://github.com/roodriiigooo)    |                                                                                                                     |                                                |
+
 ## Requirements
 First and foremost, keep in mind that you must meet this requirements:
 - A computer;
-- The pwnagotchi must already be `v1.5.5` properly configured;
+- The pwnagotchi must already be [`v1.5.5`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5) properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
 
-## Observations:
+## Observations
 The following steps were performed on a Windows computer using PuTTY as an SSH client, FileZilla and the pwnagotchi with a Waveshare 2.13 V3 e-ink display.
 You should adapt them according to your configuration. This tutorial requires a minimum level of knowledge.
 
@@ -145,7 +154,7 @@ Replace this one:
 With that:
 ```python
 ...
-	    'face': Text(value=faces.SLEEP, position=(config['ui']['faces']['position_x'], config['ui']['faces']['position_y']), color=BLACK, font=fonts.Huge, icon=config['ui']['faces']['icon']),
+	    'face': Text(value=faces.SLEEP, position=(config['ui']['faces']['position_x'], config['ui']['faces']['position_y']), color=BLACK, font=fonts.Huge, png=config['ui']['faces']['png']),
 ...
 ```
 CTRL + O to save, CTRL + X to close file.
@@ -160,8 +169,8 @@ From this point on, the pwnagotchi is ready to display images instead of the def
 ## Configuration
 From here, we will able configure the images for our custom Faces. So lets do that!
 
-Prepare the files, there are a total of 25. I use images of size 128x45. To make it easier, name the files according to the facial expression or emotion:
-> **_Png Files:_**  
+Prepare the files, there are a total of `25`. I use images of size `128x45`. To make it easier, name the files according to the facial expression or emotion:
+> **_Default .png file names:_**  
 
 ~~~
 LOOK_R, LOOK_L, LOOK_R_HAPPY, LOOK_L_HAPPY, SLEEP, SLEEP2, AWAKE, BORED, INTENSE, COOL, HAPPY, GRATEFUL, EXCITED, MOTIVATED, DEMOTIVATED, LONELY, SAD, ANGRY, FRIEND, BROKEN, DEBUG, UPLOAD, UPLOAD1, UPLOAD2, ICON, POSITION_X, POSITION_Y
@@ -240,34 +249,29 @@ ui.faces.debug = "/custom-faces/DEBUG.png"
 ui.faces.upload = "/custom-faces/UPLOAD.png"
 ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
 ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
-ui.faces.icon = true
+ui.faces.png = true
 ui.faces.position_x = 0
 ui.faces.position_y = 34
 ...
 ```
+
+> **_Note:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")` or `view.set('face', "(◕‿‿◕)")`
+
 CTRL + O to save, CTRL + X to close file.
 
 Restart your device
 ```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+root@pwnagotchi:/# systemctl restart pwnagotchi
 ```
 
 Enjoy!
 
-# Themes
-
-Starting a collection of custom themes for pwnagotchi. Create your own and send me your pull request!
-
-| Name                                                                                                                                                                                                                                                               | Without Optional Plugins                                                                                                                                    | With Optional Plugins                                                                                                                                     | Description                                    |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/PWNACHU_MINI.png?raw=true" height="48"> [pwnachu](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/pwnachu) | ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_0.png?raw=true) | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_1.png?raw=true) | A custom theme featuring my favorite character |                                                                                                                                                      |                                                |
-
 # Troubleshooting
-- Check the log file, read and interpret
+- Check the log file, read and interpretinterpre
 ```console
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
-- Restore the backup files that we placed in /files-backup/
+- Restore the backup files that we placed in `/files-backup/`
 
 - PM me.
 
