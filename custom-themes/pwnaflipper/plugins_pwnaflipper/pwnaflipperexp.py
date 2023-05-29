@@ -15,7 +15,7 @@ MULTIPLIER_ASSOCIATION = 1
 MULTIPLIER_DEAUTH = 2
 MULTIPLIER_HANDSHAKE = 3
 MULTIPLIER_AI_BEST_REWARD = 5
-TAG = "[EXP Plugin]"
+TAG = "[pwnaflipper EXP Plugin]"
 FACE_LEVELUP = '/plugin/faces/EXCITED.png'
 BAR_ERROR = "|   error  |"
 FILE_SAVE = "exp_stats"
@@ -24,8 +24,8 @@ JSON_KEY_LEVEL = "level"
 JSON_KEY_EXP ="exp"
 JSON_KEY_EXP_TOT ="exp_tot"
 
-class EXP(plugins.Plugin):
-    __author__ = 'GaelicThunder'
+class PWNAFLIPPEREXP(plugins.Plugin):
+    __author__ = 'GaelicThunder && Rodrigo A. Melo'
     __version__ = '1.0.5'
     __license__ = 'GPL3'
     __description__ = 'Get exp every time a handshake get captured.'
@@ -178,11 +178,11 @@ class EXP(plugins.Plugin):
 
 
     def on_ui_setup(self, ui):
-        ui.add_element('Lv', LabeledValue(color=BLACK, label='Lv', value=0,
+        ui.add_element('Lv', LabeledValue(color=BLACK, label='', value=0,
                                           position=(int(self.options["lvl_x_coord"]),
                                                     int(self.options["lvl_y_coord"])),
                                           label_font=fonts.Bold, text_font=fonts.Medium))
-        ui.add_element('Exp', LabeledValue(color=BLACK, label='Exp', value=0,
+        ui.add_element('Exp', LabeledValue(color=BLACK, label='', value=0,
                                            position=(int(self.options["exp_x_coord"]),
                                                      int(self.options["exp_y_coord"])),
                                            label_font=fonts.Bold, text_font=fonts.Medium))
@@ -344,4 +344,12 @@ class EXP(plugins.Plugin):
             self.exp_tot = sum
             self.calcLevelFromSum(sum, agent)
             self.Save(self.save_file, self.save_file_mode)
-                
+
+    def on_unload(self, ui):
+         with ui._lock:
+             try:
+                 ui.remove_element('Exp')
+                 ui.remove_element('Lv')
+                 logging.info(f'PWNAFLIPPER Exp unloaded')
+             except Exception as e:
+                 logging.info(f'Failed to load face on on_unload: {e}')

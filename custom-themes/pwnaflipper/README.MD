@@ -65,7 +65,7 @@ ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
 ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
 ui.faces.icon = true
 ui.faces.position_x = 0
-ui.faces.position_y = 34
+ui.faces.position_y = 36
 ...
 ```
 CTRL + O to save, CTRL + X to close file.
@@ -82,7 +82,7 @@ Edit `pwnaflipper-theme.py` with your `custom-faces` folder:
 ...
 ```
 
-> **_Note:_** You can also replace `NORMALBAR` with `XPBAR` if you prefer. Remember to adjust (x, y).
+> **_Note:_** You can also replace `NORMALBAR` with `XPBAR` if you prefer. Remember to adjust (x, y). The `pwnaflipperexp.yml` file contains the entries that should be in the config.toml file for the `plugin` to work.
 
 
 Reboot pwnagotchi service
@@ -90,7 +90,7 @@ Reboot pwnagotchi service
 root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
 ```
 
-Activate plugins `exp` and `pwnaflipper-theme`
+Activate plugins `pwnaflipperexp` and `pwnaflipper-theme`
 
 
 Reboot pwnagotchi service again
