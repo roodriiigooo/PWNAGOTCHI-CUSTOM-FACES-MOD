@@ -4,7 +4,7 @@ A custom theme featuring Fliper Zero's character. Enjoy this crossover!
 
 |                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                     |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflipper/faces_pwnaflipper_dolphin/.screenshots/ui_0.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflipper/faces_pwnaflipper_dolphin/.screenshots/ui_1.png?raw=true)  |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflipper/faces_flipper_dolphin/.screenshots/ui_0.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflipper/faces_flipper_dolphin/.screenshots/ui_1.png?raw=true)  |
 
 
 ## Requirements
