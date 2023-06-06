@@ -161,11 +161,6 @@ With that:
 ```
 CTRL + O to save, CTRL + X to close file.
 
-Restart your device
-```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
-```
-
 From this point on, the pwnagotchi is ready to display images instead of the default string.
 
 ## Configuration
@@ -178,7 +173,7 @@ Prepare the files, there are a total of `25`. I use images of size `128x45`. To 
 LOOK_R, LOOK_L, LOOK_R_HAPPY, LOOK_L_HAPPY, SLEEP, SLEEP2, AWAKE, BORED, INTENSE, COOL, HAPPY, GRATEFUL, EXCITED, MOTIVATED, DEMOTIVATED, LONELY, SAD, ANGRY, FRIEND, BROKEN, DEBUG, UPLOAD, UPLOAD1, UPLOAD2, ICON, POSITION_X, POSITION_Y
 ~~~
 
-Stop the pwnagotchi service
+Stop the pwnagotchi service, if its not:
 ```console
 root@pwnagotchi:/# systemctl stop pwnagotchi
 ```
