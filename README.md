@@ -180,7 +180,7 @@ root@pwnagotchi:/# systemctl stop pwnagotchi
 
 ### Upload Images
 Use `FileZilla` or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
-
+If you don't have it, use one of my packages from [here](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/#Themes).
 
 Open the pwnagotchi's configuration file:
 ```console
