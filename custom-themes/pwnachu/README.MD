@@ -29,7 +29,7 @@ Stop pwnagotchi service
 root@pwnagotchi:/# systemctl stop pwnagotchi
 ```
 
-Assuming you have already downloaded this project, upload the images using FileZilla or your preferred method to the custom faces folder created during [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_).
+Assuming you have already downloaded this project, upload the images using `FileZilla` or your preferred method to the custom faces folder created during [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_).
 
 Open the pwnagotchi's configuration file:
 ```console
