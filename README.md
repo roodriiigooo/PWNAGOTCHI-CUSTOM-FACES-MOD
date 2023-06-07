@@ -178,8 +178,8 @@ Stop the pwnagotchi service, if its not:
 root@pwnagotchi:/# systemctl stop pwnagotchi
 ```
 
-#### Upload Images
-Use FileZilla or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
+### Upload Images
+Use `FileZilla` or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
 
 
 Open the pwnagotchi's configuration file:
