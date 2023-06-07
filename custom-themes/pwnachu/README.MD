@@ -107,7 +107,38 @@ Enjoy!
 
 # Hint
 
-If the status of your pwnagotchi is misaligned or if you want to change the position of the text, you can edit it in:
+If the status of your pwnagotchi is misaligned or if you want to change the position of the text, you can edit the screen configuration file. In my case, it is located at: 
+
+```console
+root@pwnagotchi:/# nano /usr/local/lib/python3.7/dist-packages/pwnagotchi/ui/hw/waveshare3.py
+```
+
+Look for:
+
+```python
+        self._layout['status'] = {
+            'pos': (125, 20),
+            'font': fonts.status_font(fonts.Medium),
+            'max': 20
+        }
+
+```
+
+
+And put whatever position you want in `pos` (x, y).
+
+In my case:
+
+```python
+        self._layout['status'] = {
+            'pos': (125, 40),
+            'font': fonts.status_font(fonts.Medium),
+            'max': 20
+        }
+
+```
+
+
 
 |                                     Before                                                           |                                    After                                                             |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
