@@ -131,7 +131,7 @@ In my case:
 
 ```python
         self._layout['status'] = {
-            'pos': (125, 40),
+            'pos': (125, 34),
             'font': fonts.status_font(fonts.Medium),
             'max': 20
         }
@@ -142,7 +142,7 @@ In my case:
 
 |                                     Before                                                           |                                    After                                                             |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui.png?raw=true)  | - |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui.png?raw=true)  |  ![Custom version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_2.png?raw=true) |
 
 
 
