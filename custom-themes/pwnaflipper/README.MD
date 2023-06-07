@@ -90,20 +90,20 @@ Edit `pwnaflipper-theme.py` with your `custom-faces` folder:
 ...
 ```
 
-> **_Note:_** You can also replace `NORMALBAR` with `XPBAR` if you prefer. Remember to adjust (x, y). The `pwnaflipperexp.yml` file contains the entries that should be in the config.toml file for the `plugin` to work.
+> **_Note 3:_** You can also replace `NORMALBAR` with `XPBAR` if you prefer. Remember to adjust (x, y). The `pwnaflipperexp.yml` file contains the entries that should be in the config.toml file for the `plugin` to work.
 
 
 Reboot pwnagotchi service
 ```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+root@pwnagotchi:/# systemctl restart pwnagotchi
 ```
 
 Activate plugins `pwnaflipper-exp` and `pwnaflipper-theme`
-
+> **_Note 4:_** If any plugin fails to load correctly, try copying the contents of the accompanying `.yml` file into your `config.toml`.
 
 Reboot pwnagotchi service again
 ```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+root@pwnagotchi:/# systemctl restart pwnagotchi
 ```
 
 Enjoy!
