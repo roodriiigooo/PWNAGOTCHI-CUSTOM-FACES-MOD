@@ -94,7 +94,8 @@ Reboot pwnagotchi service
 root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
 ```
 
-Activate plugins `exp` and `pwnachu-theme`
+Activate plugins `pwnachu-exp` and `pwnachu-theme`
+> **_Note 3:_** If any plugin fails to load correctly, try copying the contents of the accompanying `.yml` file into your `config.toml`.
 
 
 Reboot pwnagotchi service again
