@@ -105,6 +105,13 @@ root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl 
 
 Enjoy!
 
+# Hint
+
+|                                                                              |
+| :--------------------------------------------------------------------------------------------------: |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui.png?raw=true)    |
+
+
 
 ### Sprite Table
 
