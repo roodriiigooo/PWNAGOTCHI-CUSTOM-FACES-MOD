@@ -11,8 +11,19 @@ from pwnagotchi.ui.components import LabeledValue
 from pwnagotchi.ui.view import BLACK
 
 # Static Variables
-TAG = "[pwnaflipper EXP Plugin]"
+TAG = "[PWNAFLIPPER EXP Plugin]"
+# Static Variables
+MULTIPLIER_ASSOCIATION = 1
+MULTIPLIER_DEAUTH = 2
+MULTIPLIER_HANDSHAKE = 3
+MULTIPLIER_AI_BEST_REWARD = 5
 FACE_LEVELUP = '/custom-faces/EXCITED.png'
+BAR_ERROR = "|   error  |"
+FILE_SAVE = "exp_stats"
+FILE_SAVE_LEGACY = "exp"
+JSON_KEY_LEVEL = "level"
+JSON_KEY_EXP ="exp"
+JSON_KEY_EXP_TOT ="exp_tot"
 
 
 class PWNAFLIPPEREXP(plugins.Plugin):
@@ -169,11 +180,11 @@ class PWNAFLIPPEREXP(plugins.Plugin):
 
 
     def on_ui_setup(self, ui):
-        ui.add_element('Lv', LabeledValue(color=BLACK, label='', value=0,
+        ui.add_element('Lv', LabeledValue(color=BLACK, label='Lv', value=0,
                                           position=(int(self.options["lvl_x_coord"]),
                                                     int(self.options["lvl_y_coord"])),
                                           label_font=fonts.Bold, text_font=fonts.Medium))
-        ui.add_element('Exp', LabeledValue(color=BLACK, label='', value=0,
+        ui.add_element('Exp', LabeledValue(color=BLACK, label='Xp', value=0,
                                            position=(int(self.options["exp_x_coord"]),
                                                      int(self.options["exp_y_coord"])),
                                            label_font=fonts.Bold, text_font=fonts.Medium))
