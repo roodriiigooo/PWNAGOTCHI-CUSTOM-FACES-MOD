@@ -138,6 +138,14 @@ In my case:
 
 ```
 
+CTRL + O to save, CTRL + X to close file.
+
+
+Reboot pwnagotchi service again
+```console
+root@pwnagotchi:/# systemctl restart pwnagotchi
+```
+
 
 
 |                                     Before                                                           |                                    After                                                             |
