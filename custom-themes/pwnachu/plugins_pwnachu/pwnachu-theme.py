@@ -38,7 +38,7 @@ class pwnachu(plugins.Plugin):
     def on_ui_setup(self, ui):
         try:
             self.image0 = Frame(path=f'/custom-faces/{POKEBARXP}', xy=(55, 82))
-            self.image1 = Frame(path=f'/custom-faces/{FRAMERIGHT}', xy=(176, 36))
+            self.image1 = Frame(path=f'/custom-faces/{FRAMERIGHT}', xy=(176, 35))
             self.image2 = Frame(path=f'/custom-faces/{PWNACHUMINI}', xy=(232, 18))
             ui.add_element('pokebarxp', self.image0)
             ui.add_element('frameright', self.image1)
