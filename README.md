@@ -272,6 +272,8 @@ root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
 - Restore the backup files that we placed in `/files-backup/`
 
+- If you don't have permission, try `chmod 777`. 
+
 - PM me.
 
 ## Thank You ♥
