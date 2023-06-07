@@ -9,7 +9,7 @@ import pwnagotchi.plugins as plugins
 from pwnagotchi.ui.view import View
 from pwnagotchi.ui.view import BLACK
 
-POKEBARXP = 'POKEBAR-XP-LEFT.png'
+POKEBARXP = 'POKEBAR_XP_LEFT.png'
 FRAMERIGHT = 'POKEBAR_RIGHT.png'
 PWNACHUMINI = 'PWNACHU_MINI.png'
 

@@ -11,21 +11,12 @@ from pwnagotchi.ui.components import LabeledValue
 from pwnagotchi.ui.view import BLACK
 
 # Static Variables
-MULTIPLIER_ASSOCIATION = 1
-MULTIPLIER_DEAUTH = 2
-MULTIPLIER_HANDSHAKE = 3
-MULTIPLIER_AI_BEST_REWARD = 5
 TAG = "[pwnaflipper EXP Plugin]"
-FACE_LEVELUP = '/plugin/faces/EXCITED.png'
-BAR_ERROR = "|   error  |"
-FILE_SAVE = "exp_stats"
-FILE_SAVE_LEGACY = "exp"
-JSON_KEY_LEVEL = "level"
-JSON_KEY_EXP ="exp"
-JSON_KEY_EXP_TOT ="exp_tot"
+FACE_LEVELUP = '/custom-faces/EXCITED.png'
+
 
 class PWNAFLIPPEREXP(plugins.Plugin):
-    __author__ = 'GaelicThunder && Rodrigo A. Melo'
+    __author__ = 'Rodrigo A. Melo'
     __version__ = '1.0.5'
     __license__ = 'GPL3'
     __description__ = 'Get exp every time a handshake get captured.'
