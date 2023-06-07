@@ -107,9 +107,11 @@ Enjoy!
 
 # Hint
 
-|                                                                              |
-| :--------------------------------------------------------------------------------------------------: |
-|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui.png?raw=true)    |
+If the status of your pwnagotchi is misaligned or if you want to change the position of the text, you can edit it in:
+
+|                                     Before                                                           |                                    After                                                             |
+| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui.png?raw=true)  | - |
 
 
 
