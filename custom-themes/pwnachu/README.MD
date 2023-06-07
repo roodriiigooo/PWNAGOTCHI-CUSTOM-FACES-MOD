@@ -38,6 +38,8 @@ root@pwnagotchi:/# nano /etc/pwnagotchi/config.toml
 
 Add or replace the new entries pointing to the folder where the images were placed, set the position (x, y) where the custom Face will be displayed and set the activation flag to `True`.
 > **_Note 1:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")` or `view.set('face', "(◕‿‿◕)")`
+
+
 > **_Note 2:_** I recommend that you always use the same path (`/custom-faces/` folder) for your customization. That way, it becomes easier as you only need to replace the files!
 
 
