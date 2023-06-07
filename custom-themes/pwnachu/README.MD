@@ -105,6 +105,9 @@ root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl 
 
 Enjoy!
 
+
+### Sprite Table
+
 ---
 
 
