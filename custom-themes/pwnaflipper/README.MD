@@ -98,7 +98,7 @@ Reboot pwnagotchi service
 root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
 ```
 
-Activate plugins `pwnaflipperexp` and `pwnaflipper-theme`
+Activate plugins `pwnaflipper-exp` and `pwnaflipper-theme`
 
 
 Reboot pwnagotchi service again
@@ -107,6 +107,58 @@ root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl 
 ```
 
 Enjoy!
+
+
+# Hint
+
+If the status of your pwnagotchi is misaligned or if you want to change the position of the text, you can edit the screen configuration file. In my case, it is located at: 
+
+```console
+root@pwnagotchi:/# nano /usr/local/lib/python3.7/dist-packages/pwnagotchi/ui/hw/waveshare3.py
+```
+
+Look for:
+
+```python
+        self._layout['status'] = {
+            'pos': (125, 20),
+            'font': fonts.status_font(fonts.Medium),
+            'max': 20
+        }
+
+```
+
+
+And put whatever position you want in `pos` (x, y).
+
+In my case:
+
+```python
+        self._layout['status'] = {
+            'pos': (125, 34),
+            'font': fonts.status_font(fonts.Medium),
+            'max': 20
+        }
+
+```
+
+CTRL + O to save, CTRL + X to close file.
+
+
+Reboot pwnagotchi service again
+```console
+root@pwnagotchi:/# systemctl restart pwnagotchi
+```
+
+
+
+|                                     Before                                                           |                                    After                                                             |
+| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui.png?raw=true)  |  ![Custom version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_2.png?raw=true) |
+
+
+
+### Sprite Table
 
 ---
 
