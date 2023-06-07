@@ -161,11 +161,6 @@ With that:
 ```
 CTRL + O to save, CTRL + X to close file.
 
-Restart your device
-```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
-```
-
 From this point on, the pwnagotchi is ready to display images instead of the default string.
 
 ## Configuration
@@ -178,12 +173,14 @@ Prepare the files, there are a total of `25`. I use images of size `128x45`. To 
 LOOK_R, LOOK_L, LOOK_R_HAPPY, LOOK_L_HAPPY, SLEEP, SLEEP2, AWAKE, BORED, INTENSE, COOL, HAPPY, GRATEFUL, EXCITED, MOTIVATED, DEMOTIVATED, LONELY, SAD, ANGRY, FRIEND, BROKEN, DEBUG, UPLOAD, UPLOAD1, UPLOAD2, ICON, POSITION_X, POSITION_Y
 ~~~
 
-Stop the pwnagotchi service
+Stop the pwnagotchi service, if its not:
 ```console
 root@pwnagotchi:/# systemctl stop pwnagotchi
 ```
 
-Use FileZilla or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
+### Upload Images
+Use `FileZilla` or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
+
 
 Open the pwnagotchi's configuration file:
 ```console
@@ -257,7 +254,10 @@ ui.faces.position_y = 34
 ...
 ```
 
-> **_Note:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")` or `view.set('face', "(◕‿‿◕)")`
+> **_Note 1:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")` or `view.set('face', "(◕‿‿◕)")`
+
+
+> **_Note 2:_** I recommend that you always use the same path (`/custom-faces/` folder) for your customization. That way, it becomes easier as you only need to replace the files!
 
 CTRL + O to save, CTRL + X to close file.
 
@@ -274,6 +274,8 @@ Enjoy!
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
 - Restore the backup files that we placed in `/files-backup/`
+
+- If you don't have permission, try `chmod 777`. 
 
 - PM me.
 
