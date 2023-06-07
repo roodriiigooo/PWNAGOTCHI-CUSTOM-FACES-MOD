@@ -91,7 +91,7 @@ Edit `pwnachu-theme.py` with your `custom-faces` folder:
 
 Reboot pwnagotchi service
 ```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+root@pwnagotchi:/# systemctl restart pwnagotchi
 ```
 
 Activate plugins `pwnachu-exp` and `pwnachu-theme`
@@ -100,7 +100,7 @@ Activate plugins `pwnachu-exp` and `pwnachu-theme`
 
 Reboot pwnagotchi service again
 ```console
-root@pwnagotchi:/usr/local/lib/python3.7/dist-packages/pwnagotchi/ui# systemctl restart pwnagotchi
+root@pwnagotchi:/# systemctl restart pwnagotchi
 ```
 
 Enjoy!
