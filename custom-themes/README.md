@@ -9,7 +9,7 @@ First and foremost, keep in mind that you must meet this requirements:
 - Having followed all the steps in [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_)
 
 
-List of Contribuitions
+## List of Contribuitions
 
 
 | Name                                                                                                                                                                                                                                                               | Without Optional Plugins                                                                                                                                    | With Optional Plugins                                                                                                                                     | Description                                    | Author                                                |
