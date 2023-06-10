@@ -2,6 +2,31 @@
 Turn On/Off the [Pwnagotchi Faces MOD](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD)
 
 
+## How To
+
+Go to script folder:
+```console
+root@pwnagotchi:/# cd /custom-faces-switcher/
+```
+
+
+### Usage
+
+```console
+root@pwnagotchi:/custom-faces-switcher/# python3 set_face.py [option]
+```
+
+
+### Options
+
+```
+Available options:
+    custom - Enable custom faces
+    original - Disable custom faces
+    --help
+```
+
+
 ## Requirements
 First and foremost, keep in mind that you must meet this requirements:
 - A computer;
@@ -38,27 +63,3 @@ root@pwnagotchi:/# mkdir custom-faces-switcher
 
 Download and place the files from the custom-faces-switcher downloaded folder into new pwnagotchi's folder.
 
-
-## How To
-
-Go to script folder:
-```console
-root@pwnagotchi:/# cd /custom-faces-switcher/
-```
-
-
-### Usage
-
-```console
-root@pwnagotchi:/custom-faces-switcher/# python3 set_face.py [option]
-```
-
-
-### Options
-
-```
-Available options:
-    custom - Enable custom faces
-    original - Disable custom faces
-    --help
-```
