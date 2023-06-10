@@ -30,7 +30,7 @@ Available options:
 ## Requirements
 First and foremost, keep in mind that you must meet this requirements:
 - A computer;
-- The pwnagotchi `MUST BE` with the  [tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD) changes, including folder names and files names. If you don't know what you're doing, it's better that way.
+- The pwnagotchi `MUST BE` with this  [tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD) changes, including folder names and files names. If you don't know what you're doing, it's better that way.
 
 ## Observations
 The following steps were performed on a `Windows` computer using `PuTTY` as an SSH client, `FileZilla` and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display`.
