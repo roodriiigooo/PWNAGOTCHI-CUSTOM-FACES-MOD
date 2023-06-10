@@ -12,7 +12,7 @@ end_pattern_original = r"ui.faces.png = true"
 config_file = "/etc/pwnagotchi/config.toml"
 custom_snnipet = "/custom-faces-switcher/custom-faces.snip"
 original_snnipet = "/custom-faces-switcher/original-faces.snip"
-start_pwnagotchi = "systemctl start pwnagotchi"
+start_pwnagotchi = "reboot"
 stop_pwnagotchi = "systemctl stop pwnagotchi"
 
 def process_argument(argument):
@@ -24,6 +24,7 @@ def process_argument(argument):
         try:
             print("Setting custom")
             update_config_file(config_file, start_pattern, end_pattern_custom, custom_snnipet)
+            print("Restarting pwnagotchi")
 
         except subprocess.CalledProcessError as e:
             print("Error:", e.output.decode())
@@ -32,6 +33,7 @@ def process_argument(argument):
         try:
             print("Setting original")
             update_config_file(config_file, start_pattern, end_pattern_original, original_snnipet)
+            print("Restarting pwnagotchi")
 
         except subprocess.CalledProcessError as e:
             print("Error:", e.output.decode())
@@ -39,7 +41,7 @@ def process_argument(argument):
     else:
         print("Invalid args")
 
-    print("Restarting pwnagotchi")
+    print("Starting pwnagotchi")
     execute_command(start_pwnagotchi)
 
 
