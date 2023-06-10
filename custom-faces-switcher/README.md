@@ -33,7 +33,7 @@ First and foremost, keep in mind that you must meet this requirements:
 - The pwnagotchi `MUST BE` with the  [tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD) changes, including folder names and files names. If you don't know what you're doing, it's better that way.
 
 ## Observations
-The following steps were performed on a Windows computer using `PuTTY` as an SSH client, `FileZilla` and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display`.
+The following steps were performed on a `Windows` computer using `PuTTY` as an SSH client, `FileZilla` and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display`.
 You should adapt them according to your configuration. This tutorial requires a minimum level of knowledge.
 
 ## Install
@@ -61,5 +61,5 @@ root@pwnagotchi:/# mkdir custom-faces-switcher
 ```
 
 
-Download and place the files from the custom-faces-switcher downloaded folder into new pwnagotchi's folder.
+Download and place the files from the `custom-faces-switcher` downloaded folder into new pwnagotchi's folder.
 
