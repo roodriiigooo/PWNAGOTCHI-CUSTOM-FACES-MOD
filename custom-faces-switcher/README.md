@@ -11,7 +11,7 @@ First and foremost, keep in mind that you must meet this requirements:
 The following steps were performed on a Windows computer using PuTTY as an SSH client, FileZilla and the pwnagotchi with a Waveshare 2.13 V3 e-ink display.
 You should adapt them according to your configuration. This tutorial requires a minimum level of knowledge.
 
-## The Script
+## Install
 
 First, with the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
 
@@ -38,8 +38,18 @@ root@pwnagotchi:/# mkdir custom-faces-switcher
 
 Download and place the files from the custom-faces-switcher downloaded folder into new pwnagotchi's folder.
 
+
+## Options
+
+Go to script folder:
+```console
+root@pwnagotchi:/# cd /custom-faces-switcher/
+```
+
+
 Run
 
+
 ```console
-root@pwnagotchi:/# python3 set_faces.py --help
+root@pwnagotchi:/custom-faces-switcher/# python3 set_faces.py --help
 ```
