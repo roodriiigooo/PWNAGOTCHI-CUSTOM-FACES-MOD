@@ -1,4 +1,4 @@
-# PWNAGOTCHI v1.5.5 - Faces MOD Switcher
+# PWNAGOTCHI v1.5.5 - Custom Faces MOD Switcher
 Turn On/Off the [Pwnagotchi Faces MOD](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD)
 
 
