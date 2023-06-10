@@ -47,9 +47,26 @@ root@pwnagotchi:/# cd /custom-faces-switcher/
 ```
 
 
-Run
+### Help
 
 
 ```console
 root@pwnagotchi:/custom-faces-switcher/# python3 set_faces.py --help
+```
+
+
+### Usage
+
+```
+python set_face.py [option]
+```
+
+
+### Options
+
+```
+Available options:
+    custom - Enable custom faces
+    original - Disable custom faces
+
 ```
