@@ -39,7 +39,7 @@ root@pwnagotchi:/# mkdir custom-faces-switcher
 Download and place the files from the custom-faces-switcher downloaded folder into new pwnagotchi's folder.
 
 
-## Options
+## How To
 
 Go to script folder:
 ```console
@@ -47,7 +47,7 @@ root@pwnagotchi:/# cd /custom-faces-switcher/
 ```
 
 
-### Using
+### Usage
 
 ```console
 root@pwnagotchi:/custom-faces-switcher/# python3 set_face.py [option]
