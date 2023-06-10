@@ -17,7 +17,7 @@ stop_pwnagotchi = "systemctl stop pwnagotchi"
 
 def process_argument(argument):
     case_value = argument.lower()
-    pring("Stop pwnagotchi service")
+    print("Stop pwnagotchi service")
     execute_command(stop_pwnagotchi)
 
     if case_value == "custom":
