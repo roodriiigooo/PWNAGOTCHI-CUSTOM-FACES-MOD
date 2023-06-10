@@ -39,7 +39,7 @@ def process_argument(argument):
     else:
         print("Invalid args")
 
-    pint("Restarting pwnagotchi")
+    print("Restarting pwnagotchi")
     execute_command(start_pwnagotchi)
 
 
