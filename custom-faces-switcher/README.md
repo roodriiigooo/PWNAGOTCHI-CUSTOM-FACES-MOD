@@ -47,7 +47,7 @@ root@pwnagotchi:/# cd /custom-faces-switcher/
 ```
 
 
-### Usage
+### Using
 
 ```console
 root@pwnagotchi:/custom-faces-switcher/# python3 set_face.py [option]
