@@ -281,6 +281,11 @@ root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 
 - PM me [:D](https://github.com/roodriiigooo/)
 
+
+# Discover another projects
+-  [Fancygotchi](https://github.com/V0r-T3x/fancygotchi) by [V0r-T3x](https://github.com/V0r-T3x)
+
+
 ## Thank You ♥
 [Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official)
 
