@@ -21,6 +21,12 @@ First and foremost, keep in mind that you must meet this requirements:
 - The pwnagotchi must already be [`v1.5.5`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5) properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
 
+## Disclaimer
+> From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were developed solely for educational purposes.
+> Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
+
+> Certain content may be protected by copyright, use with caution.
+
 ## Observations
 The following steps were performed on a Windows computer using PuTTY as an SSH client, FileZilla and the pwnagotchi with a Waveshare 2.13 V3 e-ink display.
 You should adapt them according to your configuration. This tutorial requires a minimum level of knowledge.
@@ -282,13 +288,12 @@ root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 - PM me [:D](https://github.com/roodriiigooo/)
 
 
-# Discover another projects
+## Discover another projects
 -  [Fancygotchi](https://github.com/V0r-T3x/fancygotchi) by [V0r-T3x](https://github.com/V0r-T3x)
 
 
 ## Thank You ♥
 [Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official)
-
 
 
 
