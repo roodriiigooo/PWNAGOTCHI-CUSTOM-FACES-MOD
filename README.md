@@ -22,8 +22,10 @@ First and foremost, keep in mind that you must meet this requirements:
 - Perform a complete backup before making any modifications, including every file to be modified.
 
 ## Disclaimer
-> From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were developed solely for educational purposes.
+> From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
 > Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
+
+> Anyone can contribute by making a pull request.
 
 > Certain content may be protected by copyright, use with caution.
 
