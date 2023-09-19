@@ -283,7 +283,7 @@ Enjoy!
 ```console
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
-- Restore the backup files that we placed in `/files-backup/`
+- Restore the backup files that we placed in `/files-backup/` and try again
 
 - If you don't have permission, try `chmod 777`
 
