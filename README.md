@@ -279,13 +279,15 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 Enjoy!
 
 # Troubleshooting
-- Check the log file, read and interpretinterpre
+- Check the log file, read and interpret
 ```console
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
 - Restore the backup files that we placed in `/files-backup/`
 
-- If you don't have permission, try `chmod 777`. 
+- If you don't have permission, try `chmod 777`
+
+- Make sure that **all entries related to the plugins** are indeed in the `config.toml` file
 
 - PM me [:D](https://github.com/roodriiigooo/)
 
