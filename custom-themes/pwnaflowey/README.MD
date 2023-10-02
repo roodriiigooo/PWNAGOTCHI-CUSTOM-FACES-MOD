@@ -2,9 +2,9 @@
 
 A custom theme featuring my favorite character.
 
-|                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                     |
+|                                  Without Optional Plugins                                            |                                            Animated Sample                                                     |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_0.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnachu/faces_pwnachu/.screenshots/ui_1.png?raw=true)  |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflowey/faces_pwnaflowey/.screenshots/ui.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflowey/faces_pwnaflowey/.screenshots/ui.gif?raw=true)  |
 
 
 ## Requirements
