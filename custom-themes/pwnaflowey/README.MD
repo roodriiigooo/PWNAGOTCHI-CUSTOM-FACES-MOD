@@ -131,14 +131,6 @@ Reboot pwnagotchi service again
 root@pwnagotchi:/# systemctl restart pwnagotchi
 ```
 
-
-
-|                                     Before                                                           |                                    After                                                             |
-| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflowey/faces_pwnaflowey/.screenshots/ui.png?raw=true)  |  ![Custom version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflowey/faces_pwnaflowey/.screenshots/ui_2.png?raw=true) |
-
-
-
 ### Sprite Table
 
 ---
