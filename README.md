@@ -286,7 +286,7 @@ Enjoy!
 
 
 ## :pill: Troubleshooting
-- [ ] Check the log file, read and interpret
+- [ ] Check the log file, read and interpret:
 ```console
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
