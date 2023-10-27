@@ -279,6 +279,12 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 
 Enjoy!
 
+## Whats next?
+- [x] Update the docs for pwnagotchi v1.5.5
+- [ ] Buy new hardware
+- [ ] Mod for new forks (newer versions)
+
+
 # Troubleshooting
 - Check the log file, read and interpret
 ```console
@@ -301,6 +307,8 @@ root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 [Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official)
 
 ## Support Me 
+> If you like my work and want to support me, plz consider
+
 <a href="https://www.buymeacoffee.com/rodrigoo" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-5C3317?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" target="_blank"></a>
 <a href="https://www.paypal.com/donate/?business=RNSQFDU927P8A&no_recurring=0&item_name=Every+penny+donated+is+an+investment+not+only+in+me+but+also+in+fulfilling+dreams+and+creating+opportunities.&currency_code=BRL" target="_blank"><img src="https://img.shields.io/badge/Paypal%20%28BRL%29-4287f5?style=for-the-badge&logo=paypal&logoColor=white" alt="Paypal" target="_blank"></a>
 
