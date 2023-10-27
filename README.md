@@ -3,7 +3,7 @@ Project for those who are tired of the same old string faces.
 This mod allows you to use custom images as pwnagotchi Faces, with transparency feature (.png)
 
 
-# :art: Themes
+# :art: Themes List
 
 Starting a collection of custom themes for pwnagotchi. Create your own and send me your pull request!
 
