@@ -1,6 +1,6 @@
 # :star2: PWNAGOTCHI v1.5.5 - Custom Faces Mod (⌐■_■)
 Project for those who are tired of the same old string faces.
-This mod allows you to use custom images as pwnagotchi Faces, with transparency feature (.png)
+This mod allows you to use custom images as pwnagotchi Faces, with transparency feature (.png) and themed plugins.
 
 
 # :art: Themes List
