@@ -1,9 +1,9 @@
-# PWNAGOTCHI v1.5.5 - Custom Faces Mod (⌐■_■)
+# :star2: PWNAGOTCHI v1.5.5 - Custom Faces Mod (⌐■_■)
 Project for those who are tired of the same old string faces.
 This mod allows you to use custom images as pwnagotchi Faces, with transparency feature (.png)
 
 
-# Themes
+# :art: Themes
 
 Starting a collection of custom themes for pwnagotchi. Create your own and send me your pull request!
 
@@ -16,13 +16,13 @@ Starting a collection of custom themes for pwnagotchi. Create your own and send 
 
 
 
-## Requirements
+## :heavy_exclamation_mark: Requirements
 First and foremost, keep in mind that you must meet this requirements:
 - A computer;
 - The pwnagotchi must already be [`v1.5.5`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5) properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
 
-## Disclaimer
+## :bangbang: Disclaimer
 > From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
 > Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
 
@@ -30,11 +30,11 @@ First and foremost, keep in mind that you must meet this requirements:
 
 > Certain content may be protected by copyright, use with caution.
 
-## Observations
+## :warning: Observations
 The following steps were performed on a Windows computer using PuTTY as an SSH client, FileZilla and the pwnagotchi with a Waveshare 2.13 V3 e-ink display.
 You should adapt them according to your configuration. This tutorial requires a minimum level of knowledge.
 
-## The Mod
+## :bookmark_tabs: Get Started
 
 First, with the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
 
@@ -174,7 +174,7 @@ CTRL + O to save, CTRL + X to close file.
 
 From this point on, the pwnagotchi is ready to display images instead of the default string.
 
-## Configuration
+## :page_with_curl: Configuration
 From here, we will able configure the images for our custom Faces. So lets do that!
 
 Prepare the files, there are a total of `25`. I use images of size `128x45`. To make it easier, name the files according to the facial expression or emotion:
@@ -189,7 +189,7 @@ Stop the pwnagotchi service, if its not:
 root@pwnagotchi:/# systemctl stop pwnagotchi
 ```
 
-### Upload Images
+### :flower_playing_cards: Upload Images
 Use `FileZilla` or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
 If you don't have it, use one of my packages from [here](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/#Themes).
 
@@ -279,34 +279,34 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 
 Enjoy!
 
-## Whats next?
+## :triangular_flag_on_post: Whats Next?
 - [x] Update the docs for pwnagotchi v1.5.5
 - [ ] Buy new hardware
 - [ ] Mod for new forks (newer versions)
 
 
-# Troubleshooting
-- Check the log file, read and interpret
+## :pill: Troubleshooting
+- [ ] Check the log file, read and interpret
 ```console
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
-- Restore the backup files that we placed in `/files-backup/` and try again
+- [ ] Restore the backup files that we placed in `/files-backup/` and try again
 
-- If you don't have permission, try `chmod 777`
+- [ ] If you don't have permission, try `chmod 777`
 
-- Make sure that **all entries related to the plugins** are indeed in the `config.toml` file
+- [ ] Make sure that **all entries related to the plugins** are indeed in the `config.toml` file
 
-- PM me [:D](https://github.com/roodriiigooo/)
-
-
-## Discover another projects
--  [Fancygotchi](https://github.com/V0r-T3x/fancygotchi) by [V0r-T3x](https://github.com/V0r-T3x)
+- [ ] PM me [here](https://github.com/roodriiigooo/) 
 
 
-## Thank You ♥
+## :star: Discover another projects
+- [Fancygotchi](https://github.com/V0r-T3x/fancygotchi) by [V0r-T3x](https://github.com/V0r-T3x)
+
+
+## :tophat: Thank You ♥
 [Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official)
 
-## Support Me 
+## :sparkling_heart: Support Me 
 > If you like my work and want to support me, plz consider
 
 <a href="https://www.buymeacoffee.com/rodrigoo" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-5C3317?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" target="_blank"></a>
