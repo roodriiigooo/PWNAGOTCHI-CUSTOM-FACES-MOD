@@ -28,9 +28,10 @@ First and foremost, keep in mind that you must meet this requirements:
 > From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
 > Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
 
+> Certain content may be protected by copyright, use with caution.
+
 > Anyone can contribute by making a pull request.
 
-> Certain content may be protected by copyright, use with caution.
 
 ## :warning: Observations
 The following steps were performed on a `Windows` computer using `PuTTY` as an SSH client, `FileZilla` and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display` running on a `RPI0W`.
