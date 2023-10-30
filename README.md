@@ -27,9 +27,12 @@ First and foremost, keep in mind that you must meet this requirements:
 >> If you will use it in another fork or hardware, please be aware that you might need to adapt what is shown here
 
 > **Note**
-> This tutorial requires a minimum level of knowledge.
->> Anyone can contribute by making a pull request.
+> Anyone can contribute by making a pull request.
+>> Don't limit yourself to just this article, feel free to create your own themes!
 
+
+> **Note**
+> This tutorial requires a minimum level of knowledge.
 
 
 ## :bangbang: Disclaimer
