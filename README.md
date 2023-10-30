@@ -35,7 +35,7 @@ First and foremost, keep in mind that you must meet this requirements:
 > This tutorial requires a minimum level of knowledge.
 
 
-## :bangbang: Disclaimer
+## :heavy_exclamation_mark::heavy_exclamation_mark:  Disclaimer
 > **Warning**
 > From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
 > Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
@@ -292,8 +292,16 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 
 Enjoy!
 
+## :writing_hand: How to Contribute?
+> This is an entirely open project that accepts contributions via pull requests on GitHub. If you have any questions, please open an issue.
+1. Create a fork of this repository
+2. Create your theme following the pattern of the ones already posted
+3. Commit your changes in English
+4. Include a brief summary of what was added
+5. Submit your pull request
+
 ## :triangular_flag_on_post: Whats Next?
-- [x] Update the docs for pwnagotchi v1.5.5
+- [x] Update the docs for pwnagotchi `v1.5.5`
 - [ ] Buy new hardware
 - [ ] Mod for new forks (newer versions)
 
