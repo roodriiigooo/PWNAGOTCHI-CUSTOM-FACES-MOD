@@ -33,8 +33,10 @@ First and foremost, keep in mind that you must meet this requirements:
 > Certain content may be protected by copyright, use with caution.
 
 ## :warning: Observations
-The following steps were performed on a Windows computer using PuTTY as an SSH client, FileZilla and the pwnagotchi with a Waveshare 2.13 V3 e-ink display.
-You should adapt them according to your configuration. This tutorial requires a minimum level of knowledge.
+The following steps were performed on a `Windows` computer using `PuTTY` as an SSH client, `FileZilla` and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display` running on a `RPI0W`.
+> You should adapt them according to your configuration.
+
+> This tutorial requires a minimum level of knowledge.
 
 ## :bookmark_tabs: Get Started
 
