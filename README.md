@@ -21,6 +21,8 @@ First and foremost, keep in mind that you must meet this requirements:
 - A computer;
 - The pwnagotchi must already be [`v1.5.5`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5) properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
+> If you use it in another fork, please be aware that you might need to adapt what is shown here
+
 
 ## :bangbang: Disclaimer
 > From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
