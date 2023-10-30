@@ -21,23 +21,25 @@ First and foremost, keep in mind that you must meet this requirements:
 - A computer;
 - The pwnagotchi must already be [`v1.5.5`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5) properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
-> If you use it in another fork, please be aware that you might need to adapt what is shown here
+
+> **Important**
+> The following steps were performed on a `Windows` computer using `PuTTY` as SSH client, `FileZilla` as FTP client and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display` running on a `RPI0W`.
+>> If you will use it in another fork or hardware, please be aware that you might need to adapt what is shown here
+
+> **Note**
+> This tutorial requires a minimum level of knowledge.
+>> Anyone can contribute by making a pull request.
+
 
 
 ## :bangbang: Disclaimer
+> **Warning**
 > From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
 > Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
 
+> **Warning**
 > Certain content may be protected by copyright, use with caution.
 
-> Anyone can contribute by making a pull request.
-
-
-## :warning: Observations
-The following steps were performed on a `Windows` computer using `PuTTY` as an SSH client, `FileZilla` and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display` running on a `RPI0W`.
-> You should adapt them according to your configuration.
-
-> This tutorial requires a minimum level of knowledge.
 
 ## :bookmark_tabs: Get Started
 
@@ -196,7 +198,9 @@ root@pwnagotchi:/# systemctl stop pwnagotchi
 
 ### :flower_playing_cards: Upload Images
 Use `FileZilla` or any other method you know to upload your images to the `/custom-faces/` folder that was created earlier.
-If you don't have it, use one of my packages from [here](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/#Themes).
+
+> **Note**
+> If you don't have it, use one of my theme packages from [here](#art-themes-list)
 
 Open the pwnagotchi's configuration file:
 ```console
@@ -270,9 +274,10 @@ ui.faces.position_y = 34
 ...
 ```
 
+> **Note**
 > **_Note 1:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")` or `view.set('face', "(◕‿‿◕)")`
 
-
+> **Note**
 > **_Note 2:_** I recommend that you always use the same path (`/custom-faces/` folder) for your customization. That way, it becomes easier as you only need to replace the files!
 
 CTRL + O to save, CTRL + X to close file.
@@ -291,17 +296,17 @@ Enjoy!
 
 
 ## :pill: Troubleshooting
-- [ ] Check the log file, read and interpret:
+- Check the log file, read and interpret:
 ```console
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
-- [ ] Restore the backup files that we placed in `/files-backup/` and try again
+- Restore the backup files that we placed in `/files-backup/` and try again
 
-- [ ] If you don't have permission, try `chmod 777`
+- If you don't have permission, try `chmod 777`
 
-- [ ] Make sure that **all entries related to the plugins** are indeed in the `config.toml` file
+- Make sure that **all entries related to the plugins** are indeed in the `config.toml` file
 
-- [ ] PM me [here](https://github.com/roodriiigooo/) 
+- PM me [here](https://github.com/roodriiigooo/) 
 
 
 ## :star: Discover another projects
