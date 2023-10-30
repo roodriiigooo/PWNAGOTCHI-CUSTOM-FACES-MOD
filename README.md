@@ -293,7 +293,7 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 Enjoy!
 
 ## :writing_hand: How to Contribute?
-> This is an entirely open project that accepts contributions via pull requests on GitHub. If you have any questions, please open an issue.
+> This is an entirely open project that accepts contributions via pull requests, your name will be placed as an author. If you have any questions, please open an issue.
 1. Create a fork of this repository
 2. Create your theme following the pattern of the ones already posted
 3. Commit your changes in English
