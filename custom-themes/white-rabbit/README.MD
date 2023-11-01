@@ -4,8 +4,6 @@
 
 <img height="48" src="WHITE_RABBIT.png?raw=true" style="invert(100%);" />
 
-~~Hand~~ "MS Paint" drawn to the best of my ability.
-
 ## Installation
 
 <details>
@@ -193,7 +191,7 @@ Cody Tolene &#60;<a href="mailto:webmaster@codytolene.com">Email</a> | <a href="
 [img-smart]: faces_white_rabbit_waveshare_v3/SMART.png?raw=true
 [img-upload]: faces_white_rabbit_waveshare_v3/UPLOAD.png?raw=true
 [img-upload1]: faces_white_rabbit_waveshare_v3/UPLOAD1.png?raw=true
-[img-upload2]: faces_white_rabbit_waveshare_v3/UPLOAD1.png?raw=true
+[img-upload2]: faces_white_rabbit_waveshare_v3/UPLOAD2.png?raw=true
 
 <!-- LINKS -->
 
