@@ -314,6 +314,14 @@ Enjoy!
 ```console
 root@pwnagotchi:/# tail -f /var/log/pwnagotchi.log
 ```
+- The logs may not be enough, so use:
+```console
+pi@pwnagotchi:~ $ sudo su
+root@pwnagotchi:/home/pi# systemctl stop pwnagotchi
+root@pwnagotchi:/home/pi# pwnagotchi
+```
+> With this command you directly run the pwnagotchi services and this way you can see what happens at run time, showing errors what does not appear in the log
+
 - Restore the backup files that we placed in `/files-backup/` and try again
 
 - If you don't have permission, try `chmod 777`
