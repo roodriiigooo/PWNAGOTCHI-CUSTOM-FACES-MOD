@@ -57,10 +57,10 @@ Add or replace the new entries pointing to the folder where the images were plac
 
 ```python
 ...
-ui.faces.look_r = "/custom-faces/LOOK-R.png"
-ui.faces.look_l = "/custom-faces/LOOK-L.png"
-ui.faces.look_r_happy = "/custom-faces/LOOK-R-HAPPY.png"
-ui.faces.look_l_happy = "/custom-faces/LOOK-L-HAPPY.png"
+ui.faces.look_r = "/custom-faces/LOOK_R.png"
+ui.faces.look_l = "/custom-faces/LOOK_L.png"
+ui.faces.look_r_happy = "/custom-faces/LOOK_R_HAPPY.png"
+ui.faces.look_l_happy = "/custom-faces/LOOK_L_HAPPY.png"
 ui.faces.sleep = "/custom-faces/SLEEP.png"
 ui.faces.sleep2 = "/custom-faces/SLEEP2.png"
 ui.faces.awake = "/custom-faces/AWAKE.png"
@@ -180,10 +180,10 @@ Cody Tolene &#60;<a href="mailto:webmaster@codytolene.com">Email</a> | <a href="
 [img-happy]: faces_white_rabbit_waveshare_v3/HAPPY.png?raw=true
 [img-intense]: faces_white_rabbit_waveshare_v3/INTENSE.png?raw=true
 [img-lonely]: faces_white_rabbit_waveshare_v3/LONELY.png?raw=true
-[img-look-l-happy]: faces_white_rabbit_waveshare_v3/LOOK-L-HAPPY.png?raw=true
-[img-look-l]: faces_white_rabbit_waveshare_v3/LOOK-L.png?raw=true
-[img-look-r-happy]: faces_white_rabbit_waveshare_v3/LOOK-R-HAPPY.png?raw=true
-[img-look-r]: faces_white_rabbit_waveshare_v3/LOOK-R.png?raw=true
+[img-look-l-happy]: faces_white_rabbit_waveshare_v3/LOOK_L_HAPPY.png?raw=true
+[img-look-l]: faces_white_rabbit_waveshare_v3/LOOK_L.png?raw=true
+[img-look-r-happy]: faces_white_rabbit_waveshare_v3/LOOK_R_HAPPY.png?raw=true
+[img-look-r]: faces_white_rabbit_waveshare_v3/LOOK_R.png?raw=true
 [img-motivated]: faces_white_rabbit_waveshare_v3/MOTIVATED.png?raw=true
 [img-sad]: faces_white_rabbit_waveshare_v3/SAD.png?raw=true
 [img-sleep2]: faces_white_rabbit_waveshare_v3/SLEEP2.png?raw=true

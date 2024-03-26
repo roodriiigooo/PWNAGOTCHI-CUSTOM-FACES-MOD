@@ -37,6 +37,9 @@ First and foremost, keep in mind that you must meet this requirements:
 > **Note**
 > This tutorial requires a minimum level of knowledge.
 
+> **Note**
+> If pwnagotchi updates automatically, this mod must be applied again.
+
 
 ## :heavy_exclamation_mark::heavy_exclamation_mark:  Disclaimer
 > **Warning**
@@ -249,10 +252,10 @@ Add the new entries pointing to the folder where the images were placed, set the
 
 ```python
 ...
-ui.faces.look_r = "/custom-faces/LOOK-R.png"
-ui.faces.look_l = "/custom-faces/LOOK-L.png"
-ui.faces.look_r_happy = "/custom-faces/LOOK-R-HAPPY.png"
-ui.faces.look_l_happy = "/custom-faces/LOOK-L-HAPPY.png"
+ui.faces.look_r = "/custom-faces/LOOK_R.png"
+ui.faces.look_l = "/custom-faces/LOOK_L.png"
+ui.faces.look_r_happy = "/custom-faces/LOOK_R_HAPPY.png"
+ui.faces.look_l_happy = "/custom-faces/LOOK_L_HAPPY.png"
 ui.faces.sleep = "/custom-faces/SLEEP.png"
 ui.faces.sleep2 = "/custom-faces/SLEEP2.png"
 ui.faces.awake = "/custom-faces/AWAKE.png"
