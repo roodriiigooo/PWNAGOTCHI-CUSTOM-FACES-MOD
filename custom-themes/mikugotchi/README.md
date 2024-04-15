@@ -1,4 +1,26 @@
-![Screenshot 2024-04-10 175718](https://github.com/exosever/MikuGotchi/assets/50787424/f89d7e76-db22-46f4-8d26-17521c793b66)
+# <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/mikugotchi/faces_miku/FACES_MIKU_MINI.png?raw=true" height="48"> MikuGotchi
+
+A custom theme featuring Hatsune Miku ♥ 
+
+by [SeverX](https://github.com/exosever)
+
+
+|                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                 |
+| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+| ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/mikugotchi/.screenshots/ui0.png?raw=true)    | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/mikugotchi/.screenshots/ui.png?raw=true)  |
+
+
+
+## Requirements
+First and foremost, keep in mind that you must meet this requirements:
+- Having followed all the steps in [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_)
+
+
+### Sprite Table
+
+---
+
+
 
 | Emotion                                       | Original | Replacement                       | Emotion (cont'd)                | Original | Replacement                 |
 | --------------------------------------------- | -------- | --------------------------------- | ------------------------------- | -------- | --------------------------- |
