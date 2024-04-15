@@ -340,7 +340,7 @@ root@pwnagotchi:/home/pi# pwnagotchi
 
 
 ## :tophat: Thank You ♥
-[Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official)
+[Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official) - [CodyTolene](https://github.com/CodyTolene) - [SeverX](https://github.com/exosever)
 
 ## :sparkling_heart: Support Me 
 > If you like my work and want to support me, plz consider
