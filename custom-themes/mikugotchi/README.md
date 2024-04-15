@@ -7,7 +7,7 @@ by [SeverX](https://github.com/exosever)
 
 |                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                 |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-| ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/mikugotchi/faces_miku/.screenshots/ui0.png?raw=true)    | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/mikugotchi/faces_miku/.screenshots/ui.gif?raw=true)  |
+| ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/mikugotchi/.screenshots/ui0.png?raw=true)    | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/mikugotchi/.screenshots/ui.gif?raw=true)  |
 
 
 ![Screenshot 2024-04-10 175718](https://github.com/exosever/MikuGotchi/assets/50787424/f89d7e76-db22-46f4-8d26-17521c793b66)
