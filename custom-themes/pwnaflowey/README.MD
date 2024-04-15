@@ -1,6 +1,7 @@
 # <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/pwnaflowey/faces_pwnaflowey/pwnaflowey_MINI.png?raw=true" height="48"> pwnaflowey
 
-A custom theme featuring my favorite character.
+Flowey is a fictional character and the main antagonist of Undertale, a role-playing video game created by Toby Fox.
+
 
 |                                  Without Optional Plugins                                            |                                            Animated Sample                                                     |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
