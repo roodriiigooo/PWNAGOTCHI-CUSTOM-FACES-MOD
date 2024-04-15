@@ -1,6 +1,6 @@
 # <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/fallout-vault-boy/_faces/FACES_VB_MINI.png?raw=true" height="48"> Vault Boy
 
-A Fallout Vault Boy inpirated custom face 
+A Fallout's Vault Boy inspirated custom face 
 
 
 by [JD-2006](https://github.com/JD-2006) 
@@ -9,7 +9,8 @@ by [JD-2006](https://github.com/JD-2006)
 
 # FIRST AND FOREMOST
 - Maybe it will be necessary to resize the images or adapt them to your screen size, not all images are in the correct size
-- DOWNLOAD CONTENT FROM [HERE](https://github.com/JD-2006/pwnagotchi-fallout-faces-mod/tree/main)!
+- DOWNLOAD OR CLONE CONTENT FROM [HERE](https://github.com/JD-2006/pwnagotchi-fallout-faces-mod/tree/main)!
+
 
 
 
