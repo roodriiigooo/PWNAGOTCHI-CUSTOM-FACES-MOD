@@ -1,4 +1,4 @@
-# <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/fallout-vault-boy/_faces/FACES_HK_MINI.png?raw=true" height="48"> Vault Boy
+# <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/fallout-vault-boy/_faces/FACES_VB_MINI.png?raw=true" height="48"> Vault Boy
 
 A Fallout Vault Boy inpirated custom face 
 
