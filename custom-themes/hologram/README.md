@@ -1,3 +1,16 @@
+# <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/hologram/holo_faces/FACES_HOLO_MINI.png?raw=true" height="48"> Holo (ホロ, Horo)
+
+A custom theme featuring Holo (ホロ, Horo) of Spice and Wolf 
+
+by [SeverX](https://github.com/exosever)
+
+
+|                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                 |
+| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+| ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/hologram/.screenshots/ui0.png?raw=true)    | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/hologram/.screenshots/ui.png?raw=true)  |
+
+
+
 ## Requirements
 First and foremost, keep in mind that you must meet this requirements:
 - Having followed all the steps in [this tutorial](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_)
