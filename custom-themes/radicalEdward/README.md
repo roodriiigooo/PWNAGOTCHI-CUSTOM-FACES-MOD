@@ -1,11 +1,23 @@
 # <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/_faces/FACES_ED_MINI.png?raw=true" height="48"> Radical Edward
 
- A custom theme featuring Radical Edward of Cowboy Bebop
+A custom theme featuring Radical Edward of Cowboy Bebop
 
 
-|                                  Without Optional Plugins                                            |                                            Animated Sample                                                     |
+by ![cyberspacemanmike](https://cyberspacemanmike.com/)
+
+
+
+# FIRST AND FOREMOST
+- VISIT AND SUBSCRIBE HIS YOUTUBE CHANNEL! ![cyberspacemanmike](https://www.youtube.com/@cyberspacemanmike)
+- DOWNLOAD CONTENT FROM ![HERE](https://cyberspacemanmike.com/product/radical-edwards-avatar-custom-faces-for-the-custom-faces-mod-and-radical-edward-pwnagotchi-cyberdeck/), just put on cart and checkout!
+
+
+
+
+
+|                                  Without Optional Plugins                                            |                                            Whith Optional Plugins                                                     |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/_faces/.screenshots/ui.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/_faces/.screenshots/ui.gif?raw=true)  |
+|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/_faces/.screenshots/ui.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/_faces/.screenshots/ui_0.gif?raw=true)  |
 
 
 
