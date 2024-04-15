@@ -1,6 +1,6 @@
 # <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/hackersMovie/_faces/FACES_HK_MINI.png?raw=true" height="48"> Hackers
 
-A custom theme from the 'Hackers' movie.
+A 'Hackers' movie inpirated cutom theme 
 
 
 by [cyberspacemanmike](https://cyberspacemanmike.com/)
