@@ -3,21 +3,21 @@
 A custom theme featuring Radical Edward of Cowboy Bebop
 
 
-by ![cyberspacemanmike](https://cyberspacemanmike.com/)
+by [cyberspacemanmike](https://cyberspacemanmike.com/)
 
 
 
 # FIRST AND FOREMOST
-- VISIT AND SUBSCRIBE HIS YOUTUBE CHANNEL! ![cyberspacemanmike](https://www.youtube.com/@cyberspacemanmike)
-- DOWNLOAD CONTENT FROM ![HERE](https://cyberspacemanmike.com/product/radical-edwards-avatar-custom-faces-for-the-custom-faces-mod-and-radical-edward-pwnagotchi-cyberdeck/), just put on cart and checkout!
+- VISIT AND SUBSCRIBE HIS YOUTUBE CHANNEL [cyberspacemanmike](https://www.youtube.com/@cyberspacemanmike)  !
+- DOWNLOAD CONTENT FROM [HERE](https://cyberspacemanmike.com/product/radical-edwards-avatar-custom-faces-for-the-custom-faces-mod-and-radical-edward-pwnagotchi-cyberdeck/), just put on cart and checkout for FREE!
 
 
 
 
 
-|                                  Without Optional Plugins                                            |                                            Whith Optional Plugins                                                     |
+|                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                     |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-|                                                ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/_faces/.screenshots/ui.png?raw=true)    |           ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/_faces/.screenshots/ui_0.gif?raw=true)  |
+| ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/.screenshots/ui_0.png?raw=true)    | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/radicalEdward/.screenshots/ui.png?raw=true)  |
 
 
 
