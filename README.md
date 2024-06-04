@@ -344,7 +344,7 @@ root@pwnagotchi:/home/pi# pwnagotchi
 
 
 ## :tophat: Thank You ♥
-[Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official) - [CodyTolene](https://github.com/CodyTolene) - [SeverX](https://github.com/exosever) - [cyberspacemanmike](https://cyberspacemanmike.com/) - [JD-2006](https://github.com/JD-2006)
+[Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official) - [CodyTolene](https://github.com/CodyTolene) - [SeverX](https://github.com/exosever) - [cyberspacemanmike](https://cyberspacemanmike.com/) - [JD-2006](https://github.com/JD-2006) - [LuckyFish](https://github.com/LuckyFishGeek)
 
 ## :sparkling_heart: Support Me 
 > If you like my work and want to support me, plz consider
