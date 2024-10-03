@@ -9,6 +9,7 @@ by [Zerodya](https://github.com/Zerodya)
 | ![Simple version](https://github.com/Zerodya/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/rebecca/.screenshots/ui.png?raw=true)    | ![Cool version](https://github.com/Zerodya/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/rebecca/.screenshots/ui_0.png?raw=true)  |
 
 
+> **Note:** this is my first attempt at pixel art and while I'm still not completely satisfied with a few faces, I like how it turned out overall, so I still wanted to share it with the community. Feel free to improve/change this and make a PR though :)
 
 ### Sprite Table
 
