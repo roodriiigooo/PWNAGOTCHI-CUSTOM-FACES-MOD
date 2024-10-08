@@ -1,4 +1,4 @@
-# :star2: PWNAGOTCHI v1.5.5 - Custom Faces Mod (⌐■_■)
+# :star2: PWNAGOTCHI - Custom Faces Mod (⌐■_■)
 Project for those who are tired of the same old string faces.
 This mod allows you to use custom images as pwnagotchi Faces, with transparency feature (.png) and themed plugins.
 
@@ -22,6 +22,32 @@ Starting a collection of custom themes for pwnagotchi. Create your own and send 
 | <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflowey/faces_pwnaflowey/pwnaflowey_MINI.png?raw=true" height="48"> </br> [pwnaflowey](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/pwnaflowey) </p> | <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflowey/faces_pwnaflowey/.screenshots/ui.gif?raw=true"> | - | Flowey is a fictional character and the main antagonist of Undertale, a role-playing video game created by Toby Fox |    [roodriiigooo](https://github.com/roodriiigooo)    |  waveshare_v3 |
 
 
+## :books: HOW TO INSTALL
+Some notes...
+> This tutorial covers two projects, the [`evilsocket`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5)'s one (original) and [`Jayofelony`](https://github.com/jayofelony/pwnagotchi/releases)'s fork..
+>> Don't limit yourself to just this article, You may need to adapt according to your specific scenario.
+
+> **Important:**
+> The following steps were performed on a `Windows` computer using `PuTTY` as SSH client, `FileZilla` as FTP client and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display` running on a `RPI0W`.
+>> If you will use it in another fork or hardware, please be aware that you might need to adapt what is shown here
+
+> 
+> If the folder doesn't specify which screen it was tested on, assume the sprites are for the `waveshare_v3` and similar sizes
+
+> 
+> Anyone can contribute by making a pull request.
+>> Don't limit yourself to just this article, feel free to create your own themes!
+
+> 
+> This tutorial requires a minimum level of knowledge.
+
+
+## (⌐■_■) Choose your destiny:
+
+<details>
+  <summary># 1. Original Evilsocket's project</summary>
+
+# :star2: PWNAGOTCHI v1.5.5 - Evilsocket's Custom Faces Mod (⌐■_■)
 
 ## :heavy_exclamation_mark: Requirements
 First and foremost, keep in mind that you must meet this requirements:
@@ -29,31 +55,8 @@ First and foremost, keep in mind that you must meet this requirements:
 - The pwnagotchi must already be [`v1.5.5`](https://github.com/evilsocket/pwnagotchi/releases/tag/v1.5.5) properly configured;
 - Perform a complete backup before making any modifications, including every file to be modified.
 
-> **Important**
-> The following steps were performed on a `Windows` computer using `PuTTY` as SSH client, `FileZilla` as FTP client and the pwnagotchi with a `Waveshare 2.13 V3 e-ink display` running on a `RPI0W`.
->> If you will use it in another fork or hardware, please be aware that you might need to adapt what is shown here
-
-> **Note**
-> If the folder doesn't specify which screen it was tested on, assume the sprites are for the `waveshare_v3` and similar sizes
-
-> **Note**
-> Anyone can contribute by making a pull request.
->> Don't limit yourself to just this article, feel free to create your own themes!
-
-> **Note**
-> This tutorial requires a minimum level of knowledge.
-
 > **Note**
 > If pwnagotchi updates automatically, this mod must be applied again.
-
-
-## :heavy_exclamation_mark::heavy_exclamation_mark:  Disclaimer
-> **Warning**
-> From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
-> Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
-
-> **Warning**
-> Certain content may be protected by copyright, use with caution.
 
 
 ## :bookmark_tabs: Get Started
@@ -304,6 +307,147 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 
 Enjoy!
 
+</details>
+
+
+<details>
+	<summary># 2. Jayofelony's fork</summary>
+
+# :star2: PWNAGOTCHI - Jayofelony's Custom Faces Mod (⌐■_■)
+
+> **Note:**
+> This fork already has the necessary modifications to display custom faces
+
+
+## :heavy_exclamation_mark: Requirements
+First and foremost, keep in mind that you must meet this requirements:
+- A computer;
+- The pwnagotchi must already be on [`latest`](https://github.com/jayofelony/pwnagotchi/releases) jayofelony's release;
+
+First, with the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
+
+Login as root:
+```console
+pi@pwnagotchi:~ $ sudo su
+root@pwnagotchi:/home/pi#
+root@pwnagotchi:/home/pi# whoami
+root
+```
+Navigate to root directory:
+```console
+root@pwnagotchi:/home/pi# cd /
+```
+Let's create `custom-faces` folder to receive the custom faces:
+```console
+root@pwnagotchi:/# mkdir custom-faces
+```
+
+### :flower_playing_cards: Upload Images
+Use `FileZilla` or any other method you know to upload your images to the `/custom-faces/` folder.
+
+> **Note**
+> If you don't have it, use one of theme packages from [here](#art-themes-list)
+
+Open the pwnagotchi's configuration file:
+```console
+root@pwnagotchi:/# nano /etc/pwnagotchi/config.toml
+```
+Locate this code snippet:
+```python
+...
+ui.faces.look_r = "( ⚆_⚆)"
+ui.faces.look_l = "(☉_☉ )"
+ui.faces.look_r_happy = "( ◕‿◕)"
+ui.faces.look_l_happy = "(◕‿◕ )"
+ui.faces.sleep = "(⇀‿‿↼)"
+ui.faces.sleep2 = "(≖‿‿≖)"
+ui.faces.awake = "(◕‿‿◕)"
+ui.faces.bored = "(-__-)"
+ui.faces.intense = "(°▃▃°)"
+ui.faces.cool = "(⌐■_■)"
+ui.faces.happy = "(•‿‿•)"
+ui.faces.excited = "(ᵔ◡◡ᵔ)"
+ui.faces.grateful = "(^‿‿^)"
+ui.faces.motivated = "(☼‿‿☼)"
+ui.faces.demotivated = "(≖__≖)"
+ui.faces.smart = "(✜‿‿✜)"
+ui.faces.lonely = "(ب__ب)"
+ui.faces.sad = "(╥☁╥ )"
+ui.faces.angry = "(-_-')"
+ui.faces.friend = "(♥‿‿♥)"
+ui.faces.broken = "(☓‿‿☓)"
+ui.faces.debug = "(#__#)"
+ui.faces.upload = "(1__0)"
+ui.faces.upload1 = "(1__1)"
+ui.faces.upload2 = "(0__1)"
+...
+```
+
+This snippet will be responsible for enabling our customization. If it doesn't exist, you can add it.
+
+Add the new entries pointing to the folder where the images were placed, set the position where the custom Face will be displayed and set the activation flag to `True`.
+
+```python
+...
+ui.faces.look_r = "/custom-faces/LOOK_R.png"
+ui.faces.look_l = "/custom-faces/LOOK_L.png"
+ui.faces.look_r_happy = "/custom-faces/LOOK_R_HAPPY.png"
+ui.faces.look_l_happy = "/custom-faces/LOOK_L_HAPPY.png"
+ui.faces.sleep = "/custom-faces/SLEEP.png"
+ui.faces.sleep2 = "/custom-faces/SLEEP2.png"
+ui.faces.awake = "/custom-faces/AWAKE.png"
+ui.faces.bored = "/custom-faces/BORED.png"
+ui.faces.intense = "/custom-faces/INTENSE.png"
+ui.faces.cool = "/custom-faces/COOL.png"
+ui.faces.happy = "/custom-faces/HAPPY.png"
+ui.faces.excited = "/custom-faces/EXCITED.png"
+ui.faces.grateful = "/custom-faces/GRATEFUL.png"
+ui.faces.motivated = "/custom-faces/MOTIVATED.png"
+ui.faces.demotivated = "/custom-faces/DEMOTIVATED.png"
+ui.faces.smart = "/custom-faces/SMART.png"
+ui.faces.lonely = "/custom-faces/LONELY.png"
+ui.faces.sad = "/custom-faces/SAD.png"
+ui.faces.angry = "/custom-faces/ANGRY.png"
+ui.faces.friend = "/custom-faces/FRIEND.png"
+ui.faces.broken = "/custom-faces/BROKEN.png"
+ui.faces.debug = "/custom-faces/DEBUG.png"
+ui.faces.upload = "/custom-faces/UPLOAD.png"
+ui.faces.upload1 = "/custom-faces/UPLOAD1.png"
+ui.faces.upload2 = "/custom-faces/UPLOAD2.png"
+ui.faces.png = true
+ui.faces.position_x = 0
+ui.faces.position_y = 34
+...
+```
+
+> **Note**
+> **_1:_** Check if your installed plugins modify the 'faces'. If there are any, replace them with the equivalent custom image address. If you don't do this, the pwnagotchi may crash. The code looks like this: `ui.set('face', "(◕‿‿◕)")` or `view.set('face', "(◕‿‿◕)")`
+
+> **Note**
+> **_2:_** I recommend that you always use the same path (`/custom-faces/` folder) for your customization. That way, it becomes easier as you only need to replace the files!
+
+CTRL + O to save, CTRL + X to close file.
+
+Restart your device
+```console
+root@pwnagotchi:/# systemctl restart pwnagotchi
+```
+
+Enjoy!
+
+ 
+</details>
+
+
+## :heavy_exclamation_mark::heavy_exclamation_mark:  Disclaimer
+> **Warning**
+> From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
+> Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
+
+> **Warning**
+> Certain content may be protected by copyright, use with caution.
+
+
 ## :writing_hand: How to Contribute?
 > This is an entirely open project that accepts contributions via pull requests, your name will be placed as an author. If you have any questions, please open an issue.
 1. Create a fork of this repository
@@ -313,9 +457,10 @@ Enjoy!
 5. Submit your pull request
 
 ## :triangular_flag_on_post: Whats Next?
-- [x] Update the docs for pwnagotchi `v1.5.5`
+- [x] Update the docs for pwnagotchi `Evilsocket's v1.5.5`
+- [x] Update the docs for pwnagotchi `Jayofelony`'s fork
 - [ ] Buy new hardware
-- [ ] Mod for new forks (newer versions)
+- [ ] Mod for new forks
 
 
 ## :pill: Troubleshooting
@@ -340,17 +485,22 @@ root@pwnagotchi:/home/pi# pwnagotchi
 - PM me [here](https://github.com/roodriiigooo/) 
 
 
+
+## :busts_in_silhouette: Status
+<p align="center">
+<img src="https://repobeats.axiom.co/api/embed/d7c4c4aadfac4f4bd3945ddfcb144f8e7a1bf2dc.svg" alt="Custom Faces Mod analytics" height="100%">
+</p>
+
+
 ## :star: Discover another projects
 - [Fancygotchi](https://github.com/V0r-T3x/fancygotchi) by [V0r-T3x](https://github.com/V0r-T3x)
 
 
 ## :tophat: Thank You ♥
-[Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official) - [CodyTolene](https://github.com/CodyTolene) - [SeverX](https://github.com/exosever) - [cyberspacemanmike](https://cyberspacemanmike.com/) - [JD-2006](https://github.com/JD-2006) - [LuckyFish](https://github.com/LuckyFishGeek)
+[Evilsocket](https://github.com/evilsocket/pwnagotchi) - [PersephoneKarnstein](https://github.com/PersephoneKarnstein) - [V0r-T3x](https://github.com/V0r-T3x) - [@demetrius_official](https://instagram.com/demetrius_official) - [CodyTolene](https://github.com/CodyTolene) - [SeverX](https://github.com/exosever) - [cyberspacemanmike](https://cyberspacemanmike.com/) - [JD-2006](https://github.com/JD-2006) - [LuckyFish](https://github.com/LuckyFishGeek) - [Jayofelony](http://github.com/Jayofelony)
 
 ## :sparkling_heart: Support Me 
-> If you like my work and want to support me, plz consider
-
 <a href="https://www.buymeacoffee.com/rodrigoo" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-5C3317?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me A Coffee" target="_blank"></a>
-<a href="https://www.paypal.com/donate/?business=RNSQFDU927P8A&no_recurring=0&item_name=Every+penny+donated+is+an+investment+not+only+in+me+but+also+in+fulfilling+dreams+and+creating+opportunities.&currency_code=BRL" target="_blank"><img src="https://img.shields.io/badge/Paypal%20%28BRL%29-4287f5?style=for-the-badge&logo=paypal&logoColor=white" alt="Paypal" target="_blank"></a>
+<!-- <a href="https://www.paypal.com/donate/?business=RNSQFDU927P8A&no_recurring=0&item_name=Every+penny+donated+is+an+investment+not+only+in+me+but+also+in+fulfilling+dreams+and+creating+opportunities.&currency_code=BRL" target="_blank"><img src="https://img.shields.io/badge/Paypal%20%28BRL%29-4287f5?style=for-the-badge&logo=paypal&logoColor=white" alt="Paypal" target="_blank"></a> -->
 
 
