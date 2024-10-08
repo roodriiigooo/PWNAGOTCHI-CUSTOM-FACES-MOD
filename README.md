@@ -21,6 +21,13 @@ Starting a collection of custom themes for pwnagotchi. Create your own and send 
 | <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflipper/faces_flipper_dolphin/pwnaflipper_MINI.png?raw=true" height="48"> </br> [pwnaflipper](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/pwnaflipper) </p> | ![Simple version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflipper/faces_flipper_dolphin/.screenshots/ui_1.png?raw=true) | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflipper/faces_flipper_dolphin/.screenshots/ui_0.png?raw=true) | A custom theme featuring Fliper Zero's character. Enjoy this crossover! |    [roodriiigooo](https://github.com/roodriiigooo)    |   waveshare_v3 |
 | <p align="center"><img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflowey/faces_pwnaflowey/pwnaflowey_MINI.png?raw=true" height="48"> </br> [pwnaflowey](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main/custom-themes/pwnaflowey) </p> | <img src="https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/raw/main/custom-themes/pwnaflowey/faces_pwnaflowey/.screenshots/ui.gif?raw=true"> | - | Flowey is a fictional character and the main antagonist of Undertale, a role-playing video game created by Toby Fox |    [roodriiigooo](https://github.com/roodriiigooo)    |  waveshare_v3 |
 
+## :heavy_exclamation_mark::heavy_exclamation_mark:  Disclaimer
+> **Warning**
+> From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
+> Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
+
+> **Warning**
+> Certain content may be protected by copyright, use with caution.
 
 ## :books: HOW TO INSTALL
 Some notes...
@@ -307,6 +314,8 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 
 Enjoy!
 
+> ** **
+
 </details>
 
 
@@ -435,17 +444,9 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 
 Enjoy!
 
- 
+> ** **
+
 </details>
-
-
-## :heavy_exclamation_mark::heavy_exclamation_mark:  Disclaimer
-> **Warning**
-> From **roodriiigooo**: The content here is free for use, but it doesn't mean you can use it however you want. No author or contributor assumes responsibility for the misuse of this device, project, or any component herein. The project and modifications were **developed solely for educational purposes**.
-> Any files, plugins or modifications of this project or original project found here should **not be sold**. In the case of use in open projects, videos or any form of dissemination, please remember to give credit to the repository ♥
-
-> **Warning**
-> Certain content may be protected by copyright, use with caution.
 
 
 ## :writing_hand: How to Contribute?
