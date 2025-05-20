@@ -21,7 +21,7 @@ First and foremost, keep in mind that you must meet this requirements:
 
 With the pwnagotchi connected to a computer in `MANU` mode, establish an SSH connection.
 
-Place the images from the `faces_white_rabbit_waveshare_v3` or `faces_white_rabbit_waveshare144lcd` folders into your custom faces folder path depending on your device.
+Place the images from the `_faces` folder into your custom faces folder.
 
 Login as root:
 
@@ -168,31 +168,31 @@ Cody Tolene &#60;<a href="mailto:webmaster@codytolene.com">Email</a> | <a href="
 
 <!-- IMAGES -->
 
-[img-angry]: faces_white_rabbit_waveshare_v3/ANGRY.png?raw=true
-[img-awake]: faces_white_rabbit_waveshare_v3/AWAKE.png?raw=true
-[img-bored]: faces_white_rabbit_waveshare_v3/BORED.png?raw=true
-[img-broken]: faces_white_rabbit_waveshare_v3/BROKEN.png?raw=true
-[img-cool]: faces_white_rabbit_waveshare_v3/COOL.png?raw=true
-[img-debug]: faces_white_rabbit_waveshare_v3/DEBUG.png?raw=true
-[img-excited]: faces_white_rabbit_waveshare_v3/EXCITED.png?raw=true
-[img-friend]: faces_white_rabbit_waveshare_v3/FRIEND.png?raw=true
-[img-grateful]: faces_white_rabbit_waveshare_v3/GRATEFUL.png?raw=true
-[img-happy]: faces_white_rabbit_waveshare_v3/HAPPY.png?raw=true
-[img-intense]: faces_white_rabbit_waveshare_v3/INTENSE.png?raw=true
-[img-lonely]: faces_white_rabbit_waveshare_v3/LONELY.png?raw=true
-[img-look-l-happy]: faces_white_rabbit_waveshare_v3/LOOK_L_HAPPY.png?raw=true
-[img-look-l]: faces_white_rabbit_waveshare_v3/LOOK_L.png?raw=true
-[img-look-r-happy]: faces_white_rabbit_waveshare_v3/LOOK_R_HAPPY.png?raw=true
-[img-look-r]: faces_white_rabbit_waveshare_v3/LOOK_R.png?raw=true
-[img-motivated]: faces_white_rabbit_waveshare_v3/MOTIVATED.png?raw=true
-[img-sad]: faces_white_rabbit_waveshare_v3/SAD.png?raw=true
-[img-sleep2]: faces_white_rabbit_waveshare_v3/SLEEP2.png?raw=true
-[img-sleep]: faces_white_rabbit_waveshare_v3/SLEEP.png?raw=true
-[img-smart]: faces_white_rabbit_waveshare_v3/SMART.png?raw=true
-[img-upload]: faces_white_rabbit_waveshare_v3/UPLOAD.png?raw=true
-[img-upload1]: faces_white_rabbit_waveshare_v3/UPLOAD1.png?raw=true
-[img-upload2]: faces_white_rabbit_waveshare_v3/UPLOAD2.png?raw=true
+[img-angry]: _faces/ANGRY.png?raw=true
+[img-awake]: _faces/AWAKE.png?raw=true
+[img-bored]: _faces/BORED.png?raw=true
+[img-broken]: _faces/BROKEN.png?raw=true
+[img-cool]: _faces/COOL.png?raw=true
+[img-debug]: _faces/DEBUG.png?raw=true
+[img-excited]: _faces/EXCITED.png?raw=true
+[img-friend]: _faces/FRIEND.png?raw=true
+[img-grateful]: _faces/GRATEFUL.png?raw=true
+[img-happy]: _faces/HAPPY.png?raw=true
+[img-intense]: _faces/INTENSE.png?raw=true
+[img-lonely]: _faces/LONELY.png?raw=true
+[img-look-l-happy]: _faces/LOOK_L_HAPPY.png?raw=true
+[img-look-l]: _faces/LOOK_L.png?raw=true
+[img-look-r-happy]: _faces/LOOK_R_HAPPY.png?raw=true
+[img-look-r]: _faces/LOOK_R.png?raw=true
+[img-motivated]: _faces/MOTIVATED.png?raw=true
+[img-sad]: _faces/SAD.png?raw=true
+[img-sleep2]: _faces/SLEEP2.png?raw=true
+[img-sleep]: _faces/SLEEP.png?raw=true
+[img-smart]: _faces/SMART.png?raw=true
+[img-upload]: _faces/UPLOAD.png?raw=true
+[img-upload1]: _faces/UPLOAD1.png?raw=true
+[img-upload2]: _faces/UPLOAD2.png?raw=true
 
 <!-- LINKS -->
 
-[link-tutorial]: https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/tree/main#pwnagotchi-v155---custom-faces-mod-_
+[link-tutorial]: https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD?tab=readme-ov-file#bookmark_tabs-get-started
