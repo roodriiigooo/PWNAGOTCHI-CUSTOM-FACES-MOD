@@ -4,7 +4,7 @@ by [Curious-Keeper](https://github.com/Curious-Keeper)
 
 |                                  Without Optional Plugins                                            |                                            With Optional Plugins                                                     |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-| -   | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/retro-computer/_faces/.screenshots/retro-computer.png?raw=true)  |
+| -   | ![Cool version](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD/blob/main/custom-themes/retro-computer/.screenshots/retro-computer.png?raw=true)  |
 
 
 > **Note:** this is my first attempt at pixel art and while I'm still not completely satisfied with a few faces, I like how it turned out overall, so I still wanted to share it with the community. Feel free to improve/change this and make a PR though :)
@@ -156,6 +156,7 @@ root@pwnagotchi:/# systemctl restart pwnagotchi
 ```
 
 Enjoy!
+
 
 
 
