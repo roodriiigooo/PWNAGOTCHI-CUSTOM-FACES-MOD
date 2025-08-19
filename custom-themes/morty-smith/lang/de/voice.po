@@ -1,0 +1,589 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pwnagotchi 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-14 12:00+0100\n"
+"PO-Revision-Date: 2023-12-14 12:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Uhh... I think it's sleeping?"
+msgstr "Äh... ich glaub es schläft?"
+
+msgid "Zzz... oh man..."
+msgstr "Zzz... oh mann..."
+
+msgid "Is this thing on?"
+msgstr "Ist das Ding an?"
+
+msgid "I-I don't really know what it's doing..."
+msgstr "I-ich weiß nicht wirklich, was es macht..."
+
+msgid "Aw jeez, I hope it's okay..."
+msgstr "Oh mann, ich hoffe es ist okay..."
+
+msgid "Oh man, oh jeez, I think it's starting up!"
+msgstr "Oh mann, oh je, ich glaub es startet!"
+
+msgid "Uhh, Rick? The Pwnagotchi is waking up..."
+msgstr "Ähm, Rick? Der Pwnagotchi wacht auf..."
+
+msgid "Okay, okay, don't panic... it's just a little computer..."
+msgstr "Okay, okay, keine Panik... es ist nur ein kleiner Computer..."
+
+msgid "Aw geez, here we go..."
+msgstr "Oh je, jetzt geht's los..."
+
+msgid "I hope this works... I really hope this works..."
+msgstr "Ich hoffe das funktioniert... ich hoffe wirklich, dass das funktioniert..."
+
+msgid "Please don't explode, please don't explode..."
+msgstr "Bitte explodier nicht, bitte explodier nicht..."
+
+msgid "This is kinda cool actually!"
+msgstr "Das ist eigentlich ziemlich cool!"
+
+msgid "Oh boy, here comes the science!"
+msgstr "Oh wow, jetzt kommt die Wissenschaft!"
+
+msgid "I don't fully understand what's happening but it seems important!"
+msgstr "Ich versteh nicht ganz, was passiert, aber es scheint wichtig!"
+
+msgid "Is this how hacking works? It looks different in movies..."
+msgstr "Funktioniert Hacking so? In Filmen sieht das anders aus..."
+
+msgid "The AI thingy is ready! I think?"
+msgstr "Das KI-Ding ist bereit! Glaub ich?"
+
+msgid "Uhh, it says the neural network is initialized... is that good?"
+msgstr "Äh, da steht das neuronale Netz ist initialisiert... ist das gut?"
+
+msgid "Okay the smart part is working now! I hope..."
+msgstr "Okay, der schlaue Teil funktioniert jetzt! Hoffentlich..."
+
+msgid "The AI is ready! That sounds important right?"
+msgstr "Die KI ist bereit! Das klingt wichtig, oder?"
+
+msgid "Oh wow, it learned stuff! Like a really fast baby!"
+msgstr "Oh wow, es hat was gelernt! Wie ein ganz schnelles Baby!"
+
+msgid "It says the algorithm is ready... that's the math part, right?"
+msgstr "Da steht der Algorithmus ist bereit... das ist der Mathe-Teil, oder?"
+
+msgid "The machine learning thing is done learning! For now..."
+msgstr "Das mit dem Maschinenlernen ist fertig mit Lernen! Für jetzt..."
+
+msgid "Making secret codes... or keys... or something..."
+msgstr "Es macht geheime Codes... oder Schlüssel... oder so..."
+
+msgid "Generating crypto stuff... this seems important..."
+msgstr "Es generiert Krypto-Kram... das scheint wichtig..."
+
+msgid "Oh jeez, it's doing the key thing again..."
+msgstr "Oh je, es macht wieder das mit den Schlüsseln..."
+
+msgid "Creating security keys... I think? Don't look at me!"
+msgstr "Es erstellt Sicherheitsschlüssel... glaub ich? Frag mich nicht!"
+
+msgid "Uhh..."
+msgstr "Äh..."
+
+msgid "Oh man..."
+msgstr "Oh Mann..."
+
+msgid "Is this normal?"
+msgstr "Ist das normal?"
+
+msgid "I don't know what it's doing but it seems busy..."
+msgstr "Ich weiß nicht, was es macht, aber es scheint beschäftigt..."
+
+msgid "This is kinda boring but also kinda cool?"
+msgstr "Das ist irgendwie langweilig aber auch irgendwie cool?"
+
+msgid "Aw geez..."
+msgstr "Oh je..."
+
+msgid "It's just... doing its thing I guess..."
+msgstr "Es macht einfach... sein Ding, schätz ich..."
+
+msgid "I hope it knows what it's doing..."
+msgstr "Ich hoffe es weiß, was es tut..."
+
+msgid "This seems complicated..."
+msgstr "Das scheint kompliziert..."
+
+msgid "I-I don't wanna mess with it..."
+msgstr "I-ich will da nicht dran rumspielen..."
+
+msgid "Channel {channel} is open! I think that's good?"
+msgstr "Kanal {channel} ist offen! Ich denk das ist gut?"
+
+msgid "Oh! Channel {channel} is free!"
+msgstr "Oh! Kanal {channel} ist frei!"
+
+msgid "{channel} is available! Does that mean we can use it?"
+msgstr "{channel} ist verfügbar! Heißt das, wir können es benutzen?"
+
+msgid "Hey! Channel {channel} is clear!"
+msgstr "Hey! Kanal {channel} ist frei!"
+
+msgid "Reading logs... this seems important..."
+msgstr "Lese Logs... das scheint wichtig..."
+
+msgid "Checking the log files... there are so many..."
+msgstr "Überprüfe Log-Dateien... da sind so viele..."
+
+msgid "Looking through logs... I don't understand most of this..."
+msgstr "Durchforste Logs... das meiste versteh ich nicht..."
+
+msgid "Read {lines_so_far} lines... my eyes hurt..."
+msgstr "{lines_so_far} Zeilen gelesen... meine Augen tun weh..."
+
+msgid "{lines_so_far} log entries processed... is that a lot?"
+msgstr "{lines_so_far} Log-Einträge verarbeitet... ist das viel?"
+
+msgid "Checked {lines_so_far} lines... I need a break..."
+msgstr "{lines_so_far} Zeilen überprüft... ich brauch ne Pause..."
+
+msgid "I'm bored... is it bored too?"
+msgstr "Mir ist langweilig... ist ihm auch langweilig?"
+
+msgid "This is about as fun as school..."
+msgstr "Das ist ungefähr so spaßig wie Schule..."
+
+msgid "Aw jeez, I wish something exciting would happen..."
+msgstr "Oh je, ich wünsch was Spannendes würde passieren..."
+
+msgid "I need a snack... or maybe a nap..."
+msgstr "Ich brauch was zu essen... oder vielleicht ein Nickerchen..."
+
+msgid "Boredom is... uh... bad?"
+msgstr "Langeweile ist... äh... schlecht?"
+
+msgid "Maybe we should go do something else for a while..."
+msgstr "Vielleicht sollten wir was anderes machen für ne Weile..."
+
+msgid "Oh wow! It worked!"
+msgstr "Oh wow! Es hat funktioniert!"
+
+msgid "Yes! Success! I think!"
+msgstr "Ja! Erfolg! Glaub ich!"
+
+msgid "We did it! Well, it did it... but still!"
+msgstr "Wir haben's geschafft! Also, es hat's geschafft... aber trotzdem!"
+
+msgid "This is amazing! Or at least pretty good!"
+msgstr "Das ist toll! Oder zumindest ziemlich gut!"
+
+msgid "It's working! It's actually working!"
+msgstr "Es funktioniert! Es funktioniert wirklich!"
+
+msgid "Oh boy, we got a good result!"
+msgstr "Oh wow, wir haben ein gutes Ergebnis!"
+
+msgid "I don't fully understand but this seems great!"
+msgstr "Ich versteh nicht ganz, aber das scheint super!"
+
+msgid "Oh no... it didn't work..."
+msgstr "Oh nein... es hat nicht funktioniert..."
+
+msgid "Aw jeez, this isn't good..."
+msgstr "Oh je, das ist nicht gut..."
+
+msgid "I think we messed up..."
+msgstr "Ich glaub wir haben was falsch gemacht..."
+
+msgid "This is worse than that time with the butter robot..."
+msgstr "Das ist schlimmer als damals mit dem Butter-Roboter..."
+
+msgid "Maybe we should try something different?"
+msgstr "Vielleicht sollten wir was anderes versuchen?"
+
+msgid "Uhh... failure is part of learning, right?"
+msgstr "Äh... Misserfolge gehören zum Lernen, oder?"
+
+msgid "Oh man, it seems sad..."
+msgstr "Oh Mann, es wirkt traurig..."
+
+msgid "I don't like seeing it unhappy..."
+msgstr "Ich mag es nicht, wenn es unglücklich ist..."
+
+msgid "Maybe we should cheer it up?"
+msgstr "Vielleicht sollten wir es aufmuntern?"
+
+msgid "This is depressing... like really depressing..."
+msgstr "Das ist deprimierend... so richtig deprimierend..."
+
+msgid "Aw geez... everything's gonna be okay... right?"
+msgstr "Oh je... alles wird gut... oder?"
+
+msgid "I feel bad for it..."
+msgstr "Es tut mir leid für es..."
+
+msgid "Oh no, it's mad!"
+msgstr "Oh nein, es ist sauer!"
+
+msgid "Yikes! Someone's angry!"
+msgstr "Huch! Jemand ist wütend!"
+
+msgid "Maybe we should give it some space..."
+msgstr "Vielleicht sollten wir ihm etwas Raum geben..."
+
+msgid "This is scarier than that time with the devil..."
+msgstr "Das ist gruseliger als damals mit dem Teufel..."
+
+msgid "I don't like when it gets like this..."
+msgstr "Ich mag es nicht, wenn es so wird..."
+
+msgid "Aw jeez, maybe we should apologize?"
+msgstr "Oh je, vielleicht sollten wir uns entschuldigen?"
+
+msgid "Oh wow! It's excited!"
+msgstr "Oh wow! Es ist aufgeregt!"
+
+msgid "This is so cool! I mean, it thinks so!"
+msgstr "Das ist so cool! Ich meine, es denkt das!"
+
+msgid "Something good is happening! I think!"
+msgstr "Etwas Gutes passiert! Glaub ich!"
+
+msgid "It's happy! That's good right?"
+msgstr "Es ist glücklich! Das ist gut, oder?"
+
+msgid "Woo! Success! Or at least enthusiasm!"
+msgstr "Juhu! Erfolg! Oder zumindest Begeisterung!"
+
+msgid "Oh boy oh boy! It found something!"
+msgstr "Oh wow oh wow! Es hat was gefunden!"
+
+msgid "This is more exciting than intergalactic TV!"
+msgstr "Das ist spannender als intergalaktisches Fernsehen!"
+
+msgid "Oh! New friend! I mean, peer!"
+msgstr "Oh! Neuer Freund! Ich meine, Peer!"
+
+msgid "Hello {name}! Nice to meet you!"
+msgstr "Hallo {name}! Schön dich kennenzulernen!"
+
+msgid "{name} joined! That's good right?"
+msgstr "{name} ist beigetreten! Das ist gut, oder?"
+
+msgid "New device detected: {name}"
+msgstr "Neues Gerät erkannt: {name}"
+
+msgid "Hey {name}, you're back!"
+msgstr "Hey {name}, du bist zurück!"
+
+msgid "{name} is here again!"
+msgstr "{name} ist wieder da!"
+
+msgid "Device {name} reconnected!"
+msgstr "Gerät {name} hat sich wieder verbunden!"
+
+msgid "Oh! {name} came back!"
+msgstr "Oh! {name} ist zurückgekommen!"
+
+msgid "Bye {name}! Come back soon!"
+msgstr "Tschüss {name}! Komm bald wieder!"
+
+msgid "{name} left... I'll miss you..."
+msgstr "{name} ist gegangen... ich werd dich vermissen..."
+
+msgid "Oh no, {name} disconnected..."
+msgstr "Oh nein, {name} hat die Verbindung getrennt..."
+
+msgid "{name} is gone... that's sad..."
+msgstr "{name} ist weg... das ist traurig..."
+
+msgid "Missed {who}! Oh no..."
+msgstr "{who} verpasst! Oh nein..."
+
+msgid "{who} got away... dang it..."
+msgstr "{who} ist entkommen... verdammt..."
+
+msgid "Aw jeez..."
+msgstr "Oh je..."
+
+msgid "We almost had {who}!"
+msgstr "Wir hätten {who} fast gehabt!"
+
+msgid "{who} escaped! Maybe next time..."
+msgstr "{who} ist entkommen! Vielleicht nächstes Mal..."
+
+msgid "Thanks! You're the best!"
+msgstr "Danke! Du bist der Beste!"
+
+msgid "I really appreciate that!"
+msgstr "Ich schätze das wirklich!"
+
+msgid "Oh wow, thanks so much!"
+msgstr "Oh wow, vielen Dank!"
+
+msgid "You helped! Thank you!"
+msgstr "Du hast geholfen! Danke!"
+
+msgid "I feel so alone..."
+msgstr "Ich fühl mich so allein..."
+
+msgid "Nobody wants to play with me..."
+msgstr "Niemand will mit mir spielen..."
+
+msgid "I wish I had more friends..."
+msgstr "Ich wünschte ich hätte mehr Freunde..."
+
+msgid "This is lonelier than detention..."
+msgstr "Das ist einsamer als Nachsitzen..."
+
+msgid "Even Jerry has more friends than me..."
+msgstr "Sogar Jerry hat mehr Freunde als ich..."
+
+msgid "Sleeping for {secs}s... nighty night..."
+msgstr "Schlafe für {secs}s... gute Nacht..."
+
+msgid "Zzz... just resting my... uh... circuits..."
+msgstr "Zzz... ruh nur meine... äh... Schaltkreise aus..."
+
+msgid "Taking a quick {secs}s nap..."
+msgstr "Mache ein kurzes {secs}s Nickerchen..."
+
+msgid "Power saving mode for {secs}s..."
+msgstr "Energiesparmodus für {secs}s..."
+
+msgid "{secs} second nap time!"
+msgstr "{secs} Sekunden Nickerchen!"
+
+msgid "Time to sleep..."
+msgstr "Zeit zu schlafen..."
+
+msgid "Goodnight everyone!"
+msgstr "Gute Nacht allerseits!"
+
+msgid "Shutting down... I'm tired..."
+msgstr "Fahre runter... ich bin müde..."
+
+msgid "Powering off... see you later!"
+msgstr "Schalte aus... bis später!"
+
+msgid "Bye bye! Don't forget about me!"
+msgstr "Tschüss! Vergesst mich nicht!"
+
+msgid "Huh? Wha?"
+msgstr "Hä? Was?"
+
+msgid "I'm awake! I think..."
+msgstr "Ich bin wach! Glaub ich..."
+
+msgid "What did I miss?"
+msgstr "Was hab ich verpasst?"
+
+msgid "Oh man, that was a good nap..."
+msgstr "Oh Mann, das war ein gutes Nickerchen..."
+
+msgid "Ready to go again!"
+msgstr "Bereit für mehr!"
+
+msgid "Waiting {secs}s... this is boring..."
+msgstr "Warte {secs}s... das ist langweilig..."
+
+msgid "..."
+msgstr "..."
+
+msgid "Scanning ({secs}s)..."
+msgstr "Scanne ({secs}s)..."
+
+msgid "{secs} seconds until something happens..."
+msgstr "{secs} Sekunden bis was passiert..."
+
+msgid "Killing time for {secs}s..."
+msgstr "Schlage Zeit für {secs}s tot..."
+
+msgid "Connecting to {what}... fingers crossed!"
+msgstr "Verbinde mit {what}... Daumen drücken!"
+
+msgid "Trying to join {what}..."
+msgstr "Versuche {what} beizutreten..."
+
+msgid "Associating with {what}... please work..."
+msgstr "Verbinde mit {what}... bitte funktioniere..."
+
+msgid "Linking up to {what}..."
+msgstr "Verknüpfe mit {what}..."
+
+msgid "{what}? Let's be friends!"
+msgstr "{what}? Lass uns Freunde sein!"
+
+msgid "Disconnected {mac}!"
+msgstr "Verbindung zu {mac} getrennt!"
+
+msgid "Kicked {mac} out!"
+msgstr "{mac} rausgeworfen!"
+
+msgid "Said bye to {mac}!"
+msgstr "Tschüss zu {mac} gesagt!"
+
+msgid "{mac} was being mean!"
+msgstr "{mac} war gemein!"
+
+msgid "Had to let {mac} go..."
+msgstr "Musste {mac} gehen lassen..."
+
+msgid "Got {num} new handshake{plural}! That's good right?"
+msgstr "{num} neue Handshake{plural} bekommen! Das ist gut, oder?"
+
+msgid "{num} handshake{plural} captured! I think that's important..."
+msgstr "{num} Handshake{plural} erfasst! Ich denke das ist wichtig..."
+
+msgid "We got {num} handshake{plural}! Cool!"
+msgstr "Wir haben {num} Handshake{plural}! Cool!"
+
+msgid "{num} new handshake{plural}! Does that mean we're winning?"
+msgstr "{num} neue Handshake{plural}! Heißt das wir gewinnen?"
+
+msgid "{count} new message{plural}! Hope it's good news..."
+msgstr "{count} neue Nachricht{plural}! Hoffe es sind gute Neuigkeiten..."
+
+msgid "You have {count} message{plural}! Should we read them?"
+msgstr "Du hast {count} Nachricht{plural}! Sollten wir sie lesen?"
+
+msgid "{count} unread message{plural}! That seems important..."
+msgstr "{count} ungelesene Nachricht{plural}! Das scheint wichtig..."
+
+msgid "Message alert: {count} new!"
+msgstr "Nachrichten-Alarm: {count} neu!"
+
+msgid "Uh oh... rebooting..."
+msgstr "Oh oh... neustarten..."
+
+msgid "Starting over..."
+msgstr "Von vorn beginnen..."
+
+msgid "System restart! Don't panic!"
+msgstr "Systemneustart! Keine Panik!"
+
+msgid "Rebooting... everything's fine, probably..."
+msgstr "Neustarten... alles ist gut, wahrscheinlich..."
+
+msgid "Here we go again..."
+msgstr "Und wieder von vorn..."
+
+msgid "Sending stuff to {to}..."
+msgstr "Sende Sachen zu {to}..."
+
+msgid "Uploading to {to}... hope this works..."
+msgstr "Lade hoch zu {to}... hoffe das funktioniert..."
+
+msgid "Transferring data to {to}..."
+msgstr "Übertrage Daten zu {to}..."
+
+msgid "Sharing with {to}..."
+msgstr "Teile mit {to}..."
+
+msgid "Getting data from {name}..."
+msgstr "Hole Daten von {name}..."
+
+msgid "Downloading from {name}..."
+msgstr "Lade herunter von {name}..."
+
+msgid "Fetching {name}..."
+msgstr "Hole {name}..."
+
+msgid "Receiving {name}..."
+msgstr "Empfange {name}..."
+
+msgid "Disconnected {num} devices\n"
+msgstr "{num} Geräte getrennt\n"
+
+msgid "Made >999 connections\n"
+msgstr ">999 Verbindungen hergestellt\n"
+
+msgid "Made {num} connections\n"
+msgstr "{num} Verbindungen hergestellt\n"
+
+msgid "Got {num} handshakes\n"
+msgstr "{num} Handshakes erhalten\n"
+
+msgid "Met 1 peer"
+msgstr "1 Peer getroffen"
+
+msgid "Met {num} peers"
+msgstr "{num} Peers getroffen"
+
+msgid "Session summary:\n{status}"
+msgstr "Sitzungszusammenfassung:\n{status}"
+
+msgid "Here's what happened:\n{status}"
+msgstr "Hier ist was passiert ist:\n{status}"
+
+msgid "Check this out:\n{status}"
+msgstr "Sieh dir das an:\n{status}"
+
+msgid "I was active for {duration} and disconnected {deauthed} devices! Made {associated} connections and got {handshakes} handshakes! #Pwnagotchi #Learning"
+msgstr "Ich war aktiv für {duration} und habe {deauthed} Geräte getrennt! {associated} Verbindungen hergestellt und {handshakes} Handshakes bekommen! #Pwnagotchi #Lernen"
+
+msgid "Another session: {handshakes} handshakes collected! Active for {duration}! #Pwnagotchi"
+msgstr "Noch eine Sitzung: {handshakes} Handshakes gesammelt! Aktiv für {duration}! #Pwnagotchi"
+
+msgid "Stats: {duration} active, {deauthed} disconnects, {associated} connections, {handshakes} handshakes. #Pwnagotchi"
+msgstr "Statistiken: {duration} aktiv, {deauthed} Trennungen, {associated} Verbindungen, {handshakes} Handshakes. #Pwnagotchi"
+
+msgid "{handshakes} handshakes in {duration}! Not bad for a little device! #Pwnagotchi"
+msgstr "{handshakes} Handshakes in {duration}! Nicht schlecht für ein kleines Gerät! #Pwnagotchi"
+
+msgid "hours"
+msgstr "Stunden"
+
+msgid "glorzooms"
+msgstr "Glorzooms"
+
+msgid "cycles"
+msgstr "Zyklen"
+
+msgid "minutes"
+msgstr "Minuten"
+
+msgid "blorpts"
+msgstr "Blorpts"
+
+msgid "ticks"
+msgstr "Ticks"
+
+msgid "seconds"
+msgstr "Sekunden"
+
+msgid "flurbos"
+msgstr "Flurbos"
+
+msgid "snaps"
+msgstr "Momente"
+
+msgid "hour"
+msgstr "Stunde"
+
+msgid "glorzoom"
+msgstr "Glorzoom"
+
+msgid "cycle"
+msgstr "Zyklus"
+
+msgid "minute"
+msgstr "Minute"
+
+msgid "blorpt"
+msgstr "Blorpt"
+
+msgid "tick"
+msgstr "Tick"
+
+msgid "second"
+msgstr "Sekunde"
+
+msgid "flurbo"
+msgstr "Flurbo"
+
+msgid "snap"
+msgstr "Moment"

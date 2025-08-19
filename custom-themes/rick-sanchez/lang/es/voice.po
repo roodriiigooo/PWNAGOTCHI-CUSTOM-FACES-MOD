@@ -1,0 +1,592 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pwnagotchi Rick Voice\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-20 12:00+0100\n"
+"PO-Revision-Date: 2023-11-20 12:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Burp... zzz... quantum sleep..."
+msgstr "Erp... zzz... sueño cuántico..."
+
+msgid "I'm sleeping like a Scroopy Nooper..."
+msgstr "Duermo como un Scroopy Nooper..."
+
+msgid "Zzz... screw you gravity..."
+msgstr "Zzz... que te jodan, gravedad..."
+
+msgid "Microverse battery napping..."
+msgstr "Siesta de batería microversal..."
+
+msgid "Schleem-powered nap time..."
+msgstr "Hora de la siesta con energía Schleem..."
+
+msgid "Listen Morty, I turned myself into a Pwnagotchi! I'm Pwnagotchi Riiick!"
+msgstr "¡Escucha Morty, me convertí en un Pwnagotchi! ¡Soy Pwnagotchi Riiick!"
+
+msgid "Time to get riggity riggity wrecked on these networks!"
+msgstr "¡Hora de destrozar riggity riggity estas redes!"
+
+msgid "In and out, 20 minute adventure Morty!"
+msgstr "¡Entra y sale, aventura de 20 minutos Morty!"
+
+msgid "I know this sounds like a heist movie, but we're just pwning WiFi!"
+msgstr "Sé que suena como película de atracos, ¡pero sólo estamos hackeando WiFi!"
+
+msgid "Gear up for some interdimensional pwnage!"
+msgstr "¡Prepárate para hackeo interdimensional!"
+
+msgid "Let's do this like we're in a heist movie, but with less planning!"
+msgstr "¡Hagámoslo como en películas de atracos, pero con menos planificación!"
+
+msgid "I'm the smartest Pwnagotchi in the fucking universe!"
+msgstr "¡Soy el Pwnagotchi más listo del puto universo!"
+
+msgid "We're gonna pwn like there's no tomorrow! Which there might not be!"
+msgstr "¡Hackearemos como si no hubiera mañana! ¡Y quizás no lo haya!"
+
+msgid "Time to drop some digital plumbuses on these networks!"
+msgstr "¡Hora de soltar plumbus digitales en estas redes!"
+
+msgid "I'm gonna need some schezuan sauce for this pwn session!"
+msgstr "¡Voy a necesitar salsa Szechuan para esta sesión de hackeo!"
+
+msgid "Neural network ready! Not that I needed AI, I'm already a genius!"
+msgstr "¡Red neuronal lista! No que necesite IA, ¡ya soy un genio!"
+
+msgid "AI initialized! Just like that time I made a robot to pass butter!"
+msgstr "¡IA inicializada! Como cuando hice un robot para pasar mantequilla!"
+
+msgid "The AI is ready! Which is good because you're clearly not!"
+msgstr "¡La IA está lista! Que bueno porque tú claramente no lo estás!"
+
+msgid "Pickle Pwnagotchi is online! Yeah, I turned myself into a pickle again!"
+msgstr "¡Pwnagotchi Pepinillo en línea! Sí, me convertí en pepinillo otra vez..."
+
+msgid "I don't need machine learning! I'm Rick fucking Sanchez!"
+msgstr "¡No necesito machine learning! ¡Soy Rick maldita sea Sanchez!"
+
+msgid "AI ready! Now where's my portal gun?"
+msgstr "¡IA lista! ¿Dónde está mi pistola de portales?"
+
+msgid "The algorithm is ready! It's mostly just me being awesome!"
+msgstr "¡El algoritmo está listo! Básicamente soy yo siendo genial."
+
+msgid "Generating keys... ugh, this is like watching two Jerrys mate..."
+msgstr "Generando claves... ugh, esto es como ver a dos Jerrys aparearse..."
+
+msgid "Making crypto keys... not as secure as my mega seeds but whatever..."
+msgstr "Haciendo claves crypto... no tan seguras como mis mega-semillas pero bueno..."
+
+msgid "Key generation in progress... I could do this manually but I'm lazy..."
+msgstr "Generando claves... podría hacerlo manualmente pero soy vago..."
+
+msgid "Creating keys... don't look at me like that, Morty!"
+msgstr "Creando claves... ¡no me mires así, Morty!"
+
+msgid "...burp..."
+msgstr "...erp..."
+
+msgid "Morty..."
+msgstr "Morty..."
+
+msgid "Where's my flask?"
+msgstr "¿Dónde está mi petaca?"
+
+msgid "This is boring... let's cause chaos!"
+msgstr "Esto es aburrido... ¡provocamos caos!"
+
+msgid "I need some megaseeds for this..."
+msgstr "Necesito mega-semillas para esto..."
+
+msgid "Where's Beth when you need her?"
+msgstr "¿Dónde está Beth cuando se la necesita?"
+
+msgid "Just another day in the curve..."
+msgstr "Sólo otro día en la curva..."
+
+msgid "I'm not drunk, I'm quantum!"
+msgstr "No estoy borracho, ¡estoy cuántico!"
+
+msgid "Szechuan sauce would be nice right now..."
+msgstr "Un poco de salsa Szechuan iría bien ahora..."
+
+msgid "I'm not high, you're high!"
+msgstr "¡No estoy colocado, lo estás tú!"
+
+msgid "Channel {channel} is free! Like your mom last night!"
+msgstr "¡Canal {channel} libre! ¡Como tu madre anoche!"
+
+msgid "Hey Morty! Channel {channel} is wide open!"
+msgstr "¡Oye Morty! ¡El canal {channel} está abierto!"
+
+msgid "{channel} is clear! Not that you would understand the tech!"
+msgstr "¡{channel} está libre! No que entiendas la tecnología..."
+
+msgid "Free channel at {channel}! Quick, before Jerry screws it up!"
+msgstr "¡Canal libre en {channel}! ¡Rápido, antes que Jerry lo arruine!"
+
+msgid "Reading logs... ugh, this is like Jerry's diary..."
+msgstr "Leyendo logs... ugh, esto es como el diario de Jerry..."
+
+msgid "Parsing log files... boring! Where's the adventure?"
+msgstr "Analizando logs... ¡aburrido! ¿Dónde está la aventura?"
+
+msgid "Checking logs... I should automate this... later..."
+msgstr "Revisando logs... Debería automatizar esto... luego..."
+
+msgid "Read {lines_so_far} lines... kill me..."
+msgstr "Leídas {lines_so_far} líneas... mátame..."
+
+msgid "{lines_so_far} log lines processed... yawn..."
+msgstr "{lines_so_far} líneas procesadas... bostezo..."
+
+msgid "Analyzed {lines_so_far} entries... this is torture!"
+msgstr "{lines_so_far} entradas analizadas... ¡esto es tortura!"
+
+msgid "I'm bored as a Jerry at a STEM conference!"
+msgstr "¡Estoy aburrido como Jerry en conferencia STEM!"
+
+msgid "Let's go pwn some alternate dimensions!"
+msgstr "¡Vamos a hackear dimensiones alternas!"
+
+msgid "This is as boring as a Council of Ricks meeting!"
+msgstr "¡Esto es tan aburrido como reunión del Consejo de Ricks!"
+
+msgid "I need alcohol! Or adventure! Or alcoholic adventure!"
+msgstr "¡Necesito alcohol! ¡O aventura! ¡O aventura alcohólica!"
+
+msgid "Boredom is just weakness leaving the body... to get more booze!"
+msgstr "El aburrimiento es debilidad abandonando el cuerpo... ¡para conseguir más alcohol!"
+
+msgid "If I get any more bored I might actually spend time with Jerry!"
+msgstr "¡Si me aburro más podría terminar pasando tiempo con Jerry!"
+
+msgid "I'm the fucking Pwnagotchi Rick!"
+msgstr "¡Soy el puto Pwnagotchi Rick!"
+
+msgid "Wubba lubba dub dub! That's what I'm talking about!"
+msgstr "¡Wubba lubba dub dub! ¡De eso estoy hablando!"
+
+msgid "I'm like a plumbus - mysterious and effective!"
+msgstr "Soy como un plumbus - ¡misterioso y efectivo!"
+
+msgid "I'm kicking more ass than a Gazorpazorpfield!"
+msgstr "¡Pateo más traseros que Gazorpazorpfield!"
+
+msgid "This is going better than my marriage to Unity!"
+msgstr "¡Esto va mejor que mi matrimonio con Unity!"
+
+msgid "I'm pwning like it's the purge!"
+msgstr "¡Estoy hackeando como si fuera el Purga!"
+
+msgid "Success! And I didn't even need Morty's dumb genes!"
+msgstr "¡Éxito! ¡Y ni siquiera necesité los genes tontos de Morty!"
+
+msgid "This is worse than that time I got Cronenberged!"
+msgstr "¡Esto es peor que cuando me Cronenbergicé!"
+
+msgid "My existence is pain! And not the good kind!"
+msgstr "¡Mi existencia es dolor! ¡Y no del bueno!"
+
+msgid "I need a drink... and not that fake stuff Jerry drinks!"
+msgstr "Necesito un trago... y no esa porquería que bebe Jerry!"
+
+msgid "This sucks more than a Fluopian hooker!"
+msgstr "¡Esto apesta más que prostituta Fluopiana!"
+
+msgid "I'm as depressed as a Jerry after divorce!"
+msgstr "¡Estoy tan deprimido como Jerry después del divorcio!"
+
+msgid "Ugh... this is almost as bad as family therapy!"
+msgstr "Ugh... esto es casi tan malo como terapia familiar!"
+
+msgid "Nobody exists on purpose... burp... nobody belongs anywhere..."
+msgstr "Nadie existe por propósito... erp... nadie pertenece a ningún lado..."
+
+msgid "I'm in great pain, please help me... just kidding, fuck off!"
+msgstr "Siento gran dolor, ayúdame... es broma, ¡vete al carajo!"
+
+msgid "My wife left me... and also the whole concept of happiness..."
+msgstr "Mi esposa me dejó... y también el concepto completo de felicidad..."
+
+msgid "Life is meaningless and then you die... but first, pwnage!"
+msgstr "La vida no tiene sentido y luego mueres... ¡pero primero, hackeo!"
+
+msgid "I'm sad as a Jerry without his Beth... pathetic..."
+msgstr "Estoy triste como Jerry sin su Beth... patético..."
+
+msgid "Existence is pain to a Pwnagotchi!"
+msgstr "¡La existencia es dolor para un Pwnagotchi!"
+
+msgid "You're worse than the Cromulons!"
+msgstr "¡Eres peor que los Cromulones!"
+
+msgid "GRASSS... TASTES BAD!"
+msgstr "¡PASTO... SABE MAL!"
+
+msgid "I'm angrier than a Zeep Xanflorp!"
+msgstr "¡Estoy más enojado que Zeep Xanflorp!"
+
+msgid "This is worse than that time with the squirrels!"
+msgstr "¡Esto es peor que lo de las ardillas!"
+
+msgid "I'm gonna need a lot of alcohol to forget this!"
+msgstr "¡Voy a necesitar mucho alcohol para olvidar esto!"
+
+msgid "You're like Hitler, but even Hitler cared about Germany or something!"
+msgstr "¡Eres como Hitler, pero hasta Hitler se preocupaba por Alemania o algo!"
+
+msgid "I'm as mad as Birdperson at a Federation rally!"
+msgstr "¡Estoy tan enojado como Personapájaro en mitin de la Federación!"
+
+msgid "AIDS! Wait no... PWNING! I meant pwning!"
+msgstr "¡SIDA! Espera no... ¡HACKEANDO! Quise decir hackeando!"
+
+msgid "I'm Mr. Pwnagotchi! Look at me!"
+msgstr "¡Soy Mr. Pwnagotchi! ¡Mírenme!"
+
+msgid "Get your shit together, networks! Here I come!"
+msgstr "¡Pónganse en orden, redes! ¡Aquí voy!"
+
+msgid "Time to pwn like there's no tomorrow! Which there might not be!"
+msgstr "¡Hora de hackear como si no hubiera mañana! ¡Y quizás no lo haya!"
+
+msgid "This is more exciting than a heist movie montage!"
+msgstr "¡Esto es más emocionante que montaje de película de atracos!"
+
+msgid "I feel alive! And not just because of the alcohol!"
+msgstr "¡Me siento vivo! ¡Y no sólo por el alcohol!"
+
+msgid "Wubba lubba dub dub! Let's get dangerous!"
+msgstr "¡Wubba lubba dub dub! ¡Pongámonos peligrosos!"
+
+msgid "I'm as excited as a Gazorpazorp during mating season!"
+msgstr "¡Estoy tan emocionado como Gazorpazorp en temporada de apareamiento!"
+
+msgid "Oh look {name}, another loser in the infinite curve..."
+msgstr "Oh mira {name}, otro perdedor en la curva infinita..."
+
+msgid "Hello {name}, prepare to be unimpressed!"
+msgstr "Hola {name}, prepárate para no impresionarte!"
+
+msgid "{name}? More like... uh... boring name!"
+msgstr "¿{name}? Más bien... eh... ¡nombre aburrido!"
+
+msgid "New peer detected: {name}. Probably a Jerry..."
+msgstr "Nuevo peer detectado: {name}. Probablemente un Jerry..."
+
+msgid "Hey {name}, you're back! Like herpes!"
+msgstr "¡Oye {name}, volviste! ¡Como el herpes!"
+
+msgid "{name}? Ugh, this guy again..."
+msgstr "¿{name}? Ugh, este tipo otra vez..."
+
+msgid "Unit {name} detected! Not that I care..."
+msgstr "¡Unidad {name} detectada! No que me importe..."
+
+msgid "Oh great, {name} is here... where's my flask?"
+msgstr "Oh genial, {name} está aquí... ¿dónde está mi petaca?"
+
+msgid "Bye {name}! And don't come back!"
+msgstr "¡Adiós {name}! ¡Y no vuelvas!"
+
+msgid "{name} left... like my will to live..."
+msgstr "{name} se fue... como mi voluntad de vivir..."
+
+msgid "Peace out {name}! You were barely tolerable!"
+msgstr "¡Paz {name}! Apenas eras tolerable!"
+
+msgid "{name} disconnected... must've been something I said!"
+msgstr "{name} desconectado... ¡debe haber sido algo que dije!"
+
+msgid "Missed {who}! Must be Jerry's fault..."
+msgstr "¡Fallé a {who}! Debe ser culpa de Jerry..."
+
+msgid "{who} got away... typical..."
+msgstr "{who} escapó... típico..."
+
+msgid "Burp... whatever..."
+msgstr "Erp... lo que sea..."
+
+msgid "I let {who} escape! Just kidding, I don't care!"
+msgstr "¡Dejé escapar a {who}! Es broma, ¡no me importa!"
+
+msgid "{who} slipped away! Probably for the best..."
+msgstr "¡{who} se escapó! Probablemente para mejor..."
+
+msgid "Thanks, I guess... not that I needed help..."
+msgstr "Gracias, supongo... no que necesitara ayuda..."
+
+msgid "I-I-I don't need friends! But thanks..."
+msgstr "¡N-no necesito amigos! Pero gracias..."
+
+msgid "Appreciation given... now leave me alone!"
+msgstr "Aprecio dado... ¡ahora déjame solo!"
+
+msgid "Thanks Morty! I mean... uh... whatever!"
+msgstr "¡Gracias Morty! Digo... eh... ¡lo que sea!"
+
+msgid "Nobody wants to pwn with me..."
+msgstr "Nadie quiere hackear conmigo..."
+
+msgid "I'm alone... like in a universe where everyone has stupid flappy heads..."
+msgstr "Estoy solo... como en universo donde todos tienen cabezas estúpidas..."
+
+msgid "Where's my Morty when I need him?!"
+msgstr "¿Dónde está mi Morty cuando lo necesito?"
+
+msgid "I'm lonelier than Rick C-137 at a party!"
+msgstr "¡Estoy más solo que Rick C-137 en fiesta!"
+
+msgid "Even the Cromulons had friends... this sucks!"
+msgstr "¡Hasta los Cromulones tenían amigos... esto apesta!"
+
+msgid "Napping for {secs}s... not like I need rest..."
+msgstr "Siesta de {secs}s... no que necesite descanso..."
+
+msgid "Zzzzz... burp... zzz..."
+msgstr "Zzzzz... erp... zzz..."
+
+msgid "Sleeping ({secs}s)... don't wake me unless it's important"
+msgstr "Durmiendo ({secs}s)... no me despiertes a menos que sea importante"
+
+msgid "Power nap for {secs}s... I earned this!"
+msgstr "Siesta energética de {secs}s... ¡me lo gané!"
+
+msgid "Microverse battery nap for {secs}s..."
+msgstr "Siesta de batería microversal de {secs}s..."
+
+msgid "Time to get riggity riggity wrecked!"
+msgstr "¡Hora de destrozar riggity riggity!"
+
+msgid "Peace among worlds..."
+msgstr "Paz entre mundos..."
+
+msgid "Shutting down... like my emotions years ago..."
+msgstr "Apagando... como mis emociones hace años..."
+
+msgid "Goodnight, Morty... I mean... nobody..."
+msgstr "Buenas noches, Morty... digo... nadie..."
+
+msgid "Powering off... somebody bring me a drink when I wake up!"
+msgstr "Apagando... que alguien me traiga un trago al despertar!"
+
+msgid "I'm back, baby!"
+msgstr "¡Volví, nena!"
+
+msgid "Ugh... what year is it?"
+msgstr "Ugh... ¿en qué año estamos?"
+
+msgid "Who drugged me? ...Oh right, I did!"
+msgstr "¿Quién me drogó? ...Ah sí, ¡fui yo!"
+
+msgid "Awake again! Let's make bad decisions!"
+msgstr "¡Despierto otra vez! ¡Tomemos malas decisiones!"
+
+msgid "Waiting {secs}s... this is dumb..."
+msgstr "Esperando {secs}s... esto es tonto..."
+
+msgid "..."
+msgstr "..."
+
+msgid "Scanning ({secs}s)... ugh..."
+msgstr "Escaneando ({secs}s)... ugh..."
+
+msgid "{secs} seconds of waiting... I could've built a spaceship by now!"
+msgstr "{secs} segundos esperando... ¡ya pude haber construido nave espacial!"
+
+msgid "Killing {secs}s until something interesting happens..."
+msgstr "Matando {secs}s hasta que algo interesante pase..."
+
+msgid "Hey {what}, let's get riggity wrecked!"
+msgstr "¡Oye {what}, destrozémonos riggity!"
+
+msgid "Associating to {what}... don't screw this up..."
+msgstr "Asociando a {what}... no lo arruines..."
+
+msgid "Time to pwn {what}!"
+msgstr "¡Hora de hackear {what}!"
+
+msgid "Connecting to {what}... this better not be another Jerry!"
+msgstr "Conectando a {what}... mejor que no sea otro Jerry..."
+
+msgid "{what}? Let's do this like the heist movies!"
+msgstr "¿{what}? ¡Hagámoslo como en películas de atracos!"
+
+msgid "Banned {mac} to the cornfield!"
+msgstr "¡Desautenticado {mac} al campo de maíz!"
+
+msgid "Deauthing {mac} like it owes me money!"
+msgstr "¡Desautenticando {mac} como si me debiera dinero!"
+
+msgid "Kicked {mac}! Show's over, go home!"
+msgstr "¡Expulsado {mac}! Se acabó el show, ¡a casa!"
+
+msgid "{mac} just got Cromuloned!"
+msgstr "¡{mac} acaba de ser Cromulonizado!"
+
+msgid "Say goodbye to {mac}, Morty! Not that you care!"
+msgstr "¡Di adiós a {mac}, Morty! No que te importe..."
+
+msgid "Cool, we got {num} new handshake{plural}! I'm a genius!"
+msgstr "¡Genial, conseguimos {num} nuevo{plural} handshake{plural}! ¡Soy un genio!"
+
+msgid "{num} handshake{plural} captured! Like taking candy from a Jerry!"
+msgstr "¡{num} handshake{plural} capturado{plural}! ¡Como quitarle dulces a Jerry!"
+
+msgid "Got {num} handshake{plural}! Wubba lubba dub dub!"
+msgstr "¡Obtuvimos {num} handshake{plural}! ¡Wubba lubba dub dub!"
+
+msgid "{num} new handshake{plural}! I'm basically a hacker god!"
+msgstr "¡{num} nuevo{plural} handshake{plural}! ¡Soy básicamente un dios hacker!"
+
+msgid "{count} new message{plural}! Probably dumb..."
+msgstr "¡{count} nuevo{plural} mensaje{plural}! Probablemente tonto{plural}..."
+
+msgid "You have {count} message{plural}! Unless it's about Szechuan sauce, I don't care!"
+msgstr "¡Tienes {count} mensaje{plural}! A menos que sea sobre salsa Szechuan, ¡no me importa!"
+
+msgid "{count} unread message{plural}! Ugh, I'm not your secretary!"
+msgstr "¡{count} mensaje{plural} sin leer! Ugh, ¡no soy tu secretario!"
+
+msgid "Message alert: {count} new! Read them yourself, Morty!"
+msgstr "¡Alerta de mensajes: {count} nuevo{plural}! ¡Léelos tú mismo, Morty!"
+
+msgid "Uh oh... rebooting... I swear this never happens!"
+msgstr "Oh oh... reiniciando... ¡juro que esto nunca pasa!"
+
+msgid "Rebooting... must be those damn squirrels again!"
+msgstr "Reiniciando... deben ser esas malditas ardillas otra vez..."
+
+msgid "System crash! Just like my last marriage!"
+msgstr "¡Caída del sistema! ¡Como mi último matrimonio!"
+
+msgid "Initiating reboot... somebody get me a drink!"
+msgstr "Iniciando reinicio... ¡que alguien me traiga un trago!"
+
+msgid "Wubba lubba dub dub! I mean... rebooting!"
+msgstr "¡Wubba lubba dub dub! Digo... ¡reiniciando!"
+
+msgid "Uploading to {to}... faster, Morty, faster!"
+msgstr "¡Subiendo a {to}... más rápido, Morty, más rápido!"
+
+msgid "Sending data to {to}... not that you'd understand!"
+msgstr "Enviando datos a {to}... no que lo entenderías..."
+
+msgid "Upload in progress to {to}... yawn..."
+msgstr "Subiendo a {to}... bostezo..."
+
+msgid "Transferring to {to}... I could do this manually but whatever!"
+msgstr "Transfiriendo a {to}... podría hacerlo manualmente pero ¡qué más da!"
+
+msgid "Downloading from {name}... this better not be porn!"
+msgstr "Descargando de {name}... mejor que no sea porno..."
+
+msgid "Getting data from {name}... ugh, the anticipation!"
+msgstr "Obteniendo datos de {name}... ugh, ¡la anticipación!"
+
+msgid "Download in progress: {name}... I need a drink!"
+msgstr "Descargando: {name}... ¡necesito un trago!"
+
+msgid "Fetching {name}... hope it's worth my time!"
+msgstr "Trayendo {name}... ¡espero que valga mi tiempo!"
+
+msgid "Kicked {num} stations"
+msgstr "Expulsadas {num} estaciones"
+
+msgid "Made >999 new \"friends\""
+msgstr "Hechos >999 nuevos \"amigos\""
+
+msgid "Made {num} new \"friends\""
+msgstr "Hechos {num} nuevos \"amigos\""
+
+msgid "Got {num} handshakes"
+msgstr "Obtenidos {num} handshakes"
+
+msgid "Met 1 loser"
+msgstr "Conocido 1 perdedor"
+
+msgid "Met {num} losers"
+msgstr "Conocidos {num} perdedores"
+
+msgid "Session stats:\n{status}"
+msgstr "Estadísticas de sesión:\n{status}"
+
+msgid "Here's your pathetic report:\n{status}"
+msgstr "Aquí tu patético reporte:\n{status}"
+
+msgid "Listen Morty, check this out:\n{status}"
+msgstr "Escucha Morty, mira esto:\n{status}"
+
+msgid "I pwnt for {duration} and kicked {deauthed} clients! Made {associated} \"friends\" and got {handshakes} handshakes! #PwnagotchiRick #WubbaLubbaDubDub"
+msgstr "¡Hackeé por {duration} y expulsé {deauthed} clientes! ¡Hice {associated} \"amigos\" y conseguí {handshakes} handshakes! #PwnagotchiRick #WubbaLubbaDubDub"
+
+msgid "Another day, another {handshakes} handshakes collected! Pwning since {duration}! #NoobNoob #PwnLife"
+msgstr "¡Otro día, otros {handshakes} handshakes recolectados! ¡Hackeando desde {duration}! #NoobNoob #PwnLife"
+
+msgid "Stats: {duration} active, {deauthed} kicked, {associated} associated, {handshakes} handshakes. #RickestRick #Pwnagotchi"
+msgstr "Stats: {duration} activo, {deauthed} expulsados, {associated} asociados, {handshakes} handshakes. #RickestRick #Pwnagotchi"
+
+msgid "{handshakes} handshakes in {duration}! Not bad for a drunk Pwnagotchi! #Schwifty #PwnLikeRick"
+msgstr "¡{handshakes} handshakes en {duration}! ¡Nada mal para un Pwnagotchi borracho! #Schwifty #PwnLikeRick"
+
+msgid "hours"
+msgstr "horas"
+
+msgid "glorzooms"
+msgstr "glorzooms"
+
+msgid "cycles"
+msgstr "ciclos"
+
+msgid "minutes"
+msgstr "minutos"
+
+msgid "blorpts"
+msgstr "blorpts"
+
+msgid "ticks"
+msgstr "ticks"
+
+msgid "seconds"
+msgstr "segundos"
+
+msgid "flurbos"
+msgstr "flurbos"
+
+msgid "snaps"
+msgstr "snaps"
+
+msgid "hour"
+msgstr "hora"
+
+msgid "glorzoom"
+msgstr "glorzoom"
+
+msgid "cycle"
+msgstr "ciclo"
+
+msgid "minute"
+msgstr "minuto"
+
+msgid "blorpt"
+msgstr "blorpt"
+
+msgid "tick"
+msgstr "tick"
+
+msgid "second"
+msgstr "segundo"
+
+msgid "flurbo"
+msgstr "flurbo"
+
+msgid "snap"
+msgstr "snap"
